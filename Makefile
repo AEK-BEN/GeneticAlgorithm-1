@@ -35,7 +35,7 @@ pythonDoc: $(pythonModules)
 
 # The clean rule deletes all non-source files, to make clean commits    
 clean:
-	rm -rf doc/python
+#	rm -rf doc/python
 	rm -rf $(geditAutosaves)
 #	rm -rf $(pyuifiles)
 	rm -rf $(compiledPyFiles)
