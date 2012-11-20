@@ -32,29 +32,32 @@ class LogGenerations(Core.GeneticOperator):
         super(LogGenerations, self).__init__(**kwargs)
         self.generationLog = []
         self.numEvaluations = []
+        self.generationCounter = 0
+        self.saveFrequency = getattr(self, 'saveFrequency', 1)
         
     def iterate(self, population):
-        # Evaluate only recently generated items (pointed to by population.lethals)        
-        lethals = getattr(population, 'lethals', None )
-        #  If population.lethals does not exist, update every individual (and set the lethals list to contain every index)
-        if not lethals:
-            lethals = range(len(population.individuals))
-        if not getattr(self, 'numEvaluations', None):
-            nE = 0
-            self.numEvaluations = []
-        else:
-            nE = self.numEvaluations[-1]
-        self.numEvaluations.append(nE + len(lethals))
-        self.generationLog.append(copy.deepcopy(population))
+        self.generationCounter = self.generationCounter + 1        
+        if (self.generationCounter % self.saveFrequency) ==0:
+            # Evaluate only recently generated items (pointed to by population.lethals)        
+            lethals = getattr(population, 'lethals', None )
+            #  If population.lethals does not exist, update every individual (and set the lethals list to contain every index)
+            if not lethals:
+                lethals = range(len(population.individuals))
+            if not getattr(self, 'numEvaluations', None):
+                nE = 0
+                self.numEvaluations = []
+            else:
+                nE = self.numEvaluations[-1]
+            self.numEvaluations.append(nE + len(lethals))
+            self.generationLog.append(copy.deepcopy(population))
     
     def finalize(self, population):
         for ev, pop in zip( self.numEvaluations, self.generationLog ):
             print 'Number of evaluations %d' % ev + str(pop) + '\n'
 
 if __name__=='__main__':
+    random.seed(2)
     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i) for i in range(1,4)])
-    p  = Core.Population(schema=ch, popSize=10, genSize=2, maximize=True)
-    ga = Core.Scheduler(name='Demo', population=p, operators=[SumSegments(), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate(), LogGenerations()])
-    p.mean_fitness=0.0
-    ga.runGA(2)
-    print str(ga)
+    p  = Core.Population(schema=ch, popSize=50, maximize=True)
+    ga = Core.Scheduler(name='Demo', population=p, operators=[SumSegments(), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate(), LogGenerations(saveFrequency=10)])    
+    ga.runGA(100)
