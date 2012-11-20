@@ -1,16 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1Core_1_1BaseChromosomeSegment.html" title="This class defines the minimal expression of a chromosome segment." alt="" coords="284,333,601,470"/>
-<area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="867,341,1120,461"/>
-<area shape="rect" id="node23" href="$classGeneticAlgorithm_1_1Core_1_1Genotype.html" title="The base Genotype class from which all chromosomes must derived." alt="" coords="1144,307,1357,496"/>
-<area shape="rect" id="node25" href="$classGeneticAlgorithm_1_1Core_1_1Individual.html" title="This class is a container intended to store all information relevant to an individual." alt="" coords="1381,307,1595,496"/>
-<area shape="rect" id="node27" href="$classGeneticAlgorithm_1_1Core_1_1Population.html" title="This class is a container, intended to store references to individuals and all their." alt="" coords="1619,333,1837,470"/>
-<area shape="rect" id="node29" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html" title="A class that encapsulates a Population and a list of GeneticOperator." alt="" coords="1861,315,2077,487"/>
-<area shape="rect" id="node2" href="$classobject.html" title="{object\n||}" alt="" coords="1341,5,1397,91"/>
+<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1Core_1_1BaseChromosomeSegment.html" title="This class defines the minimal expression of a chromosome segment." alt="" coords="244,333,561,470"/>
+<area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="788,341,1041,461"/>
+<area shape="rect" id="node23" href="$classGeneticAlgorithm_1_1Core_1_1Genotype.html" title="The base Genotype class from which all chromosomes must derived." alt="" coords="1065,307,1279,496"/>
+<area shape="rect" id="node25" href="$classGeneticAlgorithm_1_1Core_1_1Individual.html" title="This class is a container intended to store all information relevant to an individual." alt="" coords="1303,307,1516,496"/>
+<area shape="rect" id="node27" href="$classGeneticAlgorithm_1_1Core_1_1Population.html" title="This class is a container, intended to store references to individuals and all their." alt="" coords="1540,333,1759,470"/>
+<area shape="rect" id="node29" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html" title="A class that encapsulates a Population and a list of GeneticOperator." alt="" coords="1783,315,1999,487"/>
+<area shape="rect" id="node2" href="$classobject.html" title="{object\n||}" alt="" coords="1263,5,1319,91"/>
 <area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1GenotypeLibrary_1_1BinaryChromosomeSegment.html" title="This class implements an integer variable encoded by a fixed number of bits." alt="" coords="5,544,397,733"/>
-<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="421,596,640,681"/>
-<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="664,596,861,681"/>
-<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1LogGenerations.html" title="{GeneticAlgorithm.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l|+ __init__()\l+ iterate()\l+ finalize()\l}" alt="" coords="885,553,1101,725"/>
-<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="{GeneticAlgorithm.SelectionOperators.SelectLethals\n|+ iterate\l|+ select()\l}" alt="" coords="1125,596,1445,681"/>
-<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="1469,596,1792,681"/>
-<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1SumSegments.html" title="This class implements a Genetic operator that simply sums the genotype value of every individual and ..." alt="" coords="1816,579,2027,699"/>
+<area shape="rect" id="node11" href="$classGADemo_1_1LogGenerations.html" title="{GADemo.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l|+ __init__()\l+ iterate()\l+ finalize()\l}" alt="" coords="421,553,592,725"/>
+<area shape="rect" id="node13" href="$classGADemo_1_1SumSegments.html" title="This class implements a Genetic operator that simply sums the genotype value of every individual and ..." alt="" coords="616,579,781,699"/>
+<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="805,596,1024,681"/>
+<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="1048,596,1245,681"/>
+<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="{GeneticAlgorithm.SelectionOperators.SelectLethals\n|+ iterate\l|+ select()\l}" alt="" coords="1269,596,1589,681"/>
+<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="1613,596,1936,681"/>
 </map>

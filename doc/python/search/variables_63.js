@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ch',['ch',['../namespaceGeneticAlgorithm.html#adbb779916b3efe783f43afc90ccf99e7',1,'GeneticAlgorithm']]]
+  ['ch',['ch',['../namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742',1,'GADemo']]]
 ];

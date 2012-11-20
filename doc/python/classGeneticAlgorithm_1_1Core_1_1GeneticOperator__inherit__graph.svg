@@ -32,7 +32,7 @@
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1212;
+var viewWidth = 1144;
 var viewHeight = 490;
 var sectionId = 'dynsection-0';
 </script>
@@ -40,154 +40,154 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>G</title>
-<polygon fill="white" stroke="white" points="-4,5 -4,-486 1209,-486 1209,5 -4,5"/>
+<polygon fill="white" stroke="white" points="-4,5 -4,-486 1141,-486 1141,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="443,-166.5 443,-255.5 633,-255.5 633,-166.5 443,-166.5"/>
-<text text-anchor="middle" x="538" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.GeneticOperator</text>
-<polyline fill="none" stroke="black" points="443,-234.5 633,-234.5 "/>
-<text text-anchor="middle" x="538" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="443,-213.5 633,-213.5 "/>
-<text text-anchor="start" x="451" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ initialize()</text>
-<text text-anchor="start" x="451" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
-<text text-anchor="start" x="451" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
+<polygon fill="#bfbfbf" stroke="black" points="362,-166.5 362,-255.5 552,-255.5 552,-166.5 362,-166.5"/>
+<text text-anchor="middle" x="457" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.GeneticOperator</text>
+<polyline fill="none" stroke="black" points="362,-234.5 552,-234.5 "/>
+<text text-anchor="middle" x="457" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="362,-213.5 552,-213.5 "/>
+<text text-anchor="start" x="370" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ initialize()</text>
+<text text-anchor="start" x="370" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
+<text text-anchor="start" x="370" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Crossover.html" target="_top" xlink:title="Crossover two individuals from population.matingPool with probability population.crossoverProbability...">
-<polygon fill="white" stroke="black" points="0,-33.5 0,-96.5 164,-96.5 164,-33.5 0,-33.5"/>
-<text text-anchor="middle" x="82" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Crossover</text>
-<polyline fill="none" stroke="black" points="0,-75.5 164,-75.5 "/>
-<text text-anchor="start" x="8" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
-<polyline fill="none" stroke="black" points="0,-54.5 164,-54.5 "/>
-<text text-anchor="start" x="8" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ cross()</text>
+<a xlink:href="classGADemo_1_1LogGenerations.html" target="_top" xlink:title="{GADemo.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l|+ __init__()\l+ iterate()\l+ finalize()\l}">
+<polygon fill="white" stroke="black" points="0,-1 0,-129 128,-129 128,-1 0,-1"/>
+<text text-anchor="middle" x="64" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations</text>
+<polyline fill="none" stroke="black" points="0,-108 128,-108 "/>
+<text text-anchor="start" x="8" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
+<text text-anchor="start" x="8" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
+<text text-anchor="start" x="8" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
+<text text-anchor="start" x="8" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
+<polyline fill="none" stroke="black" points="0,-48 128,-48 "/>
+<text text-anchor="start" x="8" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
+<text text-anchor="start" x="8" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
+<text text-anchor="start" x="8" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M432.926,-199.074C358.025,-187.886 256.264,-167.115 173,-130 154.026,-121.542 135.015,-108.799 119.314,-96.8308"/>
-<polygon fill="none" stroke="midnightblue" points="432.448,-202.542 442.849,-200.524 433.46,-195.615 432.448,-202.542"/>
+<path fill="none" stroke="midnightblue" d="M351.448,-197.333C286.743,-185.857 203.797,-165.432 137,-130 134.002,-128.41 131.026,-126.671 128.089,-124.817"/>
+<polygon fill="none" stroke="midnightblue" points="351.221,-200.845 361.671,-199.099 352.412,-193.947 351.221,-200.845"/>
 </g>
 <!-- Node5 -->
 <g id="node9" class="node"><title>Node5</title>
-<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Mutate.html" target="_top" xlink:title="Mutate an individual.">
-<polygon fill="white" stroke="black" points="181.5,-33.5 181.5,-96.5 330.5,-96.5 330.5,-33.5 181.5,-33.5"/>
-<text text-anchor="middle" x="256" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Mutate</text>
-<polyline fill="none" stroke="black" points="181.5,-75.5 330.5,-75.5 "/>
-<text text-anchor="start" x="189.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
-<polyline fill="none" stroke="black" points="181.5,-54.5 330.5,-54.5 "/>
-<text text-anchor="start" x="189.5" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mutate()</text>
+<a xlink:href="classGADemo_1_1SumSegments.html" target="_top" xlink:title="This class implements a Genetic operator that simply sums the genotype value of every individual and ...">
+<polygon fill="white" stroke="black" points="145.5,-20.5 145.5,-109.5 270.5,-109.5 270.5,-20.5 145.5,-20.5"/>
+<text text-anchor="middle" x="208" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.SumSegments</text>
+<polyline fill="none" stroke="black" points="145.5,-88.5 270.5,-88.5 "/>
+<text text-anchor="start" x="153.5" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ initialize</text>
+<text text-anchor="start" x="153.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
+<text text-anchor="start" x="153.5" y="-49.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize</text>
+<polyline fill="none" stroke="black" points="145.5,-41.5 270.5,-41.5 "/>
+<text text-anchor="start" x="153.5" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sumSegments()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge8" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M433.235,-174.68C402.056,-162.21 368.39,-147.041 339,-130 322.692,-120.544 306.07,-108.175 292.028,-96.7673"/>
-<polygon fill="none" stroke="midnightblue" points="432.238,-178.049 442.824,-178.463 434.806,-171.538 432.238,-178.049"/>
+<path fill="none" stroke="midnightblue" d="M352.557,-170.095C327.638,-158.561 301.701,-145.009 279,-130 269.939,-124.009 260.902,-116.87 252.461,-109.552"/>
+<polygon fill="none" stroke="midnightblue" points="351.133,-173.293 361.684,-174.253 354.035,-166.922 351.133,-173.293"/>
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
-<a xlink:href="classGeneticAlgorithm_1_1LogGenerations.html" target="_top" xlink:title="{GeneticAlgorithm.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l|+ __init__()\l+ iterate()\l+ finalize()\l}">
-<polygon fill="white" stroke="black" points="347.5,-1 347.5,-129 510.5,-129 510.5,-1 347.5,-1"/>
-<text text-anchor="middle" x="429" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.LogGenerations</text>
-<polyline fill="none" stroke="black" points="347.5,-108 510.5,-108 "/>
-<text text-anchor="start" x="355.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
-<text text-anchor="start" x="355.5" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
-<text text-anchor="start" x="355.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
-<text text-anchor="start" x="355.5" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
-<polyline fill="none" stroke="black" points="347.5,-48 510.5,-48 "/>
-<text text-anchor="start" x="355.5" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
-<text text-anchor="start" x="355.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
-<text text-anchor="start" x="355.5" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
+<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Crossover.html" target="_top" xlink:title="Crossover two individuals from population.matingPool with probability population.crossoverProbability...">
+<polygon fill="white" stroke="black" points="288,-33.5 288,-96.5 452,-96.5 452,-33.5 288,-33.5"/>
+<text text-anchor="middle" x="370" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Crossover</text>
+<polyline fill="none" stroke="black" points="288,-75.5 452,-75.5 "/>
+<text text-anchor="start" x="296" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
+<polyline fill="none" stroke="black" points="288,-54.5 452,-54.5 "/>
+<text text-anchor="start" x="296" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ cross()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge10" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M498.626,-158.261C491.588,-148.834 484.184,-138.917 476.938,-129.21"/>
-<polygon fill="none" stroke="midnightblue" points="495.917,-160.483 504.704,-166.402 501.526,-156.295 495.917,-160.483"/>
+<path fill="none" stroke="midnightblue" d="M425.296,-157.795C413.109,-137.345 399.587,-114.652 388.965,-96.8261"/>
+<polygon fill="none" stroke="midnightblue" points="422.299,-159.603 430.424,-166.402 428.312,-156.02 422.299,-159.603"/>
 </g>
 <!-- Node7 -->
 <g id="node13" class="node"><title>Node7</title>
-<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" target="_top" xlink:title="{GeneticAlgorithm.SelectionOperators.SelectLethals\n|+ iterate\l|+ select()\l}">
-<polygon fill="white" stroke="black" points="528,-33.5 528,-96.5 768,-96.5 768,-33.5 528,-33.5"/>
-<text text-anchor="middle" x="648" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SelectLethals</text>
-<polyline fill="none" stroke="black" points="528,-75.5 768,-75.5 "/>
-<text text-anchor="start" x="536" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
-<polyline fill="none" stroke="black" points="528,-54.5 768,-54.5 "/>
-<text text-anchor="start" x="536" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ select()</text>
+<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Mutate.html" target="_top" xlink:title="Mutate an individual.">
+<polygon fill="white" stroke="black" points="469.5,-33.5 469.5,-96.5 618.5,-96.5 618.5,-33.5 469.5,-33.5"/>
+<text text-anchor="middle" x="544" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Mutate</text>
+<polyline fill="none" stroke="black" points="469.5,-75.5 618.5,-75.5 "/>
+<text text-anchor="start" x="477.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
+<polyline fill="none" stroke="black" points="469.5,-54.5 618.5,-54.5 "/>
+<text text-anchor="start" x="477.5" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mutate()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge12" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M577.673,-158.343C593.188,-137.75 610.471,-114.811 624.021,-96.8261"/>
-<polygon fill="none" stroke="midnightblue" points="574.823,-156.309 571.601,-166.402 580.414,-160.521 574.823,-156.309"/>
+<path fill="none" stroke="midnightblue" d="M488.704,-157.795C500.891,-137.345 514.413,-114.652 525.035,-96.8261"/>
+<polygon fill="none" stroke="midnightblue" points="485.688,-156.02 483.576,-166.402 491.701,-159.603 485.688,-156.02"/>
 </g>
 <!-- Node8 -->
 <g id="node15" class="node"><title>Node8</title>
-<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" target="_top" xlink:title="This operator performs stochastic uniform selection over the population, updating the field matingPoo...">
-<polygon fill="white" stroke="black" points="786,-33.5 786,-96.5 1028,-96.5 1028,-33.5 786,-33.5"/>
-<text text-anchor="middle" x="907" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SUSSelection</text>
-<polyline fill="none" stroke="black" points="786,-75.5 1028,-75.5 "/>
-<text text-anchor="start" x="794" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
-<polyline fill="none" stroke="black" points="786,-54.5 1028,-54.5 "/>
-<text text-anchor="start" x="794" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ select()</text>
+<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" target="_top" xlink:title="{GeneticAlgorithm.SelectionOperators.SelectLethals\n|+ iterate\l|+ select()\l}">
+<polygon fill="white" stroke="black" points="636,-33.5 636,-96.5 876,-96.5 876,-33.5 636,-33.5"/>
+<text text-anchor="middle" x="756" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SelectLethals</text>
+<polyline fill="none" stroke="black" points="636,-75.5 876,-75.5 "/>
+<text text-anchor="start" x="644" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
+<polyline fill="none" stroke="black" points="636,-54.5 876,-54.5 "/>
+<text text-anchor="start" x="644" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ select()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge14" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M642.768,-178.934C684.956,-165.134 733.767,-148.035 777,-130 800.754,-120.091 826.217,-107.759 848.256,-96.5085"/>
-<polygon fill="none" stroke="midnightblue" points="641.464,-175.678 633.036,-182.098 643.628,-182.335 641.464,-175.678"/>
+<path fill="none" stroke="midnightblue" d="M560.899,-161.942C582.774,-151.488 605.68,-140.449 627,-130 648.956,-119.239 672.9,-107.247 694.132,-96.5215"/>
+<polygon fill="none" stroke="midnightblue" points="559.112,-158.917 551.595,-166.383 562.127,-165.234 559.112,-158.917"/>
 </g>
 <!-- Node9 -->
 <g id="node17" class="node"><title>Node9</title>
-<a xlink:href="classGeneticAlgorithm_1_1SumSegments.html" target="_top" xlink:title="This class implements a Genetic operator that simply sums the genotype value of every individual and ...">
-<polygon fill="white" stroke="black" points="1045.5,-20.5 1045.5,-109.5 1204.5,-109.5 1204.5,-20.5 1045.5,-20.5"/>
-<text text-anchor="middle" x="1125" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SumSegments</text>
-<polyline fill="none" stroke="black" points="1045.5,-88.5 1204.5,-88.5 "/>
-<text text-anchor="start" x="1053.5" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ initialize</text>
-<text text-anchor="start" x="1053.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
-<text text-anchor="start" x="1053.5" y="-49.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize</text>
-<polyline fill="none" stroke="black" points="1045.5,-41.5 1204.5,-41.5 "/>
-<text text-anchor="start" x="1053.5" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sumSegments()</text>
+<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" target="_top" xlink:title="This operator performs stochastic uniform selection over the population, updating the field matingPoo...">
+<polygon fill="white" stroke="black" points="894,-33.5 894,-96.5 1136,-96.5 1136,-33.5 894,-33.5"/>
+<text text-anchor="middle" x="1015" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SUSSelection</text>
+<polyline fill="none" stroke="black" points="894,-75.5 1136,-75.5 "/>
+<text text-anchor="start" x="902" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate</text>
+<polyline fill="none" stroke="black" points="894,-54.5 1136,-54.5 "/>
+<text text-anchor="start" x="902" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ select()</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge16" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M643.112,-199.832C767.875,-185.553 967.745,-159.162 1037,-130 1049.43,-124.766 1061.73,-117.436 1073.02,-109.575"/>
-<polygon fill="none" stroke="midnightblue" points="642.686,-196.357 633.145,-200.965 643.476,-203.313 642.686,-196.357"/>
+<path fill="none" stroke="midnightblue" d="M561.987,-199.368C649.921,-187.688 777.88,-166.135 885,-130 910.583,-121.37 937.491,-108.599 960.147,-96.6557"/>
+<polygon fill="none" stroke="midnightblue" points="561.464,-195.907 552.002,-200.675 562.372,-202.848 561.464,-195.907"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <a xlink:href="classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" target="_top" xlink:title="The base object provides the functions repr and str.">
-<polygon fill="white" stroke="black" points="446,-292.5 446,-381.5 630,-381.5 630,-292.5 446,-292.5"/>
-<text text-anchor="middle" x="538" y="-368.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.GABaseObject</text>
-<polyline fill="none" stroke="black" points="446,-360.5 630,-360.5 "/>
-<text text-anchor="middle" x="538" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="446,-339.5 630,-339.5 "/>
-<text text-anchor="start" x="454" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
-<text text-anchor="start" x="454" y="-313.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __repr__()</text>
-<text text-anchor="start" x="454" y="-300.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __str__()</text>
+<polygon fill="white" stroke="black" points="365,-292.5 365,-381.5 549,-381.5 549,-292.5 365,-292.5"/>
+<text text-anchor="middle" x="457" y="-368.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.GABaseObject</text>
+<polyline fill="none" stroke="black" points="365,-360.5 549,-360.5 "/>
+<text text-anchor="middle" x="457" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="365,-339.5 549,-339.5 "/>
+<text text-anchor="start" x="373" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
+<text text-anchor="start" x="373" y="-313.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __repr__()</text>
+<text text-anchor="start" x="373" y="-300.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __str__()</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M538,-282.013C538,-273.198 538,-264.169 538,-255.633"/>
-<polygon fill="none" stroke="midnightblue" points="534.5,-282.222 538,-292.222 541.5,-282.222 534.5,-282.222"/>
+<path fill="none" stroke="midnightblue" d="M457,-282.013C457,-273.198 457,-264.169 457,-255.633"/>
+<polygon fill="none" stroke="midnightblue" points="453.5,-282.222 457,-292.222 460.5,-282.222 453.5,-282.222"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
 <a xlink:href="classobject.html" target="_top" xlink:title="{object\n||}">
-<polygon fill="white" stroke="black" points="516.5,-418.5 516.5,-481.5 559.5,-481.5 559.5,-418.5 516.5,-418.5"/>
-<text text-anchor="middle" x="538" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">object</text>
-<polyline fill="none" stroke="black" points="516.5,-460.5 559.5,-460.5 "/>
-<text text-anchor="middle" x="538" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="516.5,-439.5 559.5,-439.5 "/>
-<text text-anchor="middle" x="538" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="white" stroke="black" points="435.5,-418.5 435.5,-481.5 478.5,-481.5 478.5,-418.5 435.5,-418.5"/>
+<text text-anchor="middle" x="457" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">object</text>
+<polyline fill="none" stroke="black" points="435.5,-460.5 478.5,-460.5 "/>
+<text text-anchor="middle" x="457" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="435.5,-439.5 478.5,-439.5 "/>
+<text text-anchor="middle" x="457" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </a>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M538,-408.015C538,-399.403 538,-390.307 538,-381.606"/>
-<polygon fill="none" stroke="midnightblue" points="534.5,-408.222 538,-418.222 541.5,-408.223 534.5,-408.222"/>
+<path fill="none" stroke="midnightblue" d="M457,-408.015C457,-399.403 457,-390.307 457,-381.606"/>
+<polygon fill="none" stroke="midnightblue" points="453.5,-408.222 457,-418.222 460.5,-408.223 453.5,-408.222"/>
 </g>
 </g>
 </svg>

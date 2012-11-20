@@ -34,7 +34,7 @@
 <script type="text/javascript">
 var viewWidth = 198;
 var viewHeight = 490;
-var sectionId = 'dynsection-1';
+var sectionId = 'dynsection-0';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -43,17 +43,17 @@ var sectionId = 'dynsection-1';
 <polygon fill="white" stroke="white" points="-4,5 -4,-486 195,-486 195,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="13.5,-1 13.5,-129 176.5,-129 176.5,-1 13.5,-1"/>
-<text text-anchor="middle" x="95" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.LogGenerations</text>
-<polyline fill="none" stroke="black" points="13.5,-108 176.5,-108 "/>
-<text text-anchor="start" x="21.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
-<text text-anchor="start" x="21.5" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
-<text text-anchor="start" x="21.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
-<text text-anchor="start" x="21.5" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
-<polyline fill="none" stroke="black" points="13.5,-48 176.5,-48 "/>
-<text text-anchor="start" x="21.5" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
-<text text-anchor="start" x="21.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
-<text text-anchor="start" x="21.5" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
+<polygon fill="#bfbfbf" stroke="black" points="31,-1 31,-129 159,-129 159,-1 31,-1"/>
+<text text-anchor="middle" x="95" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations</text>
+<polyline fill="none" stroke="black" points="31,-108 159,-108 "/>
+<text text-anchor="start" x="39" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
+<text text-anchor="start" x="39" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
+<text text-anchor="start" x="39" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
+<text text-anchor="start" x="39" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
+<polyline fill="none" stroke="black" points="31,-48 159,-48 "/>
+<text text-anchor="start" x="39" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
+<text text-anchor="start" x="39" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
+<text text-anchor="start" x="39" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>

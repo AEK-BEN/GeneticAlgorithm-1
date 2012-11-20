@@ -1,12 +1,14 @@
 var searchData=
 [
   ['core',['Core',['../namespaceGeneticAlgorithm_1_1Core.html',1,'GeneticAlgorithm']]],
-  ['ga',['ga',['../namespaceGeneticAlgorithm.html#afd7e863c5a5424d37157d211d1f604bc',1,'GeneticAlgorithm']]],
+  ['ga',['ga',['../namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a',1,'GADemo']]],
   ['gabaseobject',['GABaseObject',['../classGeneticAlgorithm_1_1Core_1_1GABaseObject.html',1,'GeneticAlgorithm::Core']]],
   ['gabaseobject_2ddemo',['GABaseObject-demo',['../namespaceGABaseObject-demo.html',1,'']]],
   ['gabaseobject_2ddemo_2epy',['GABaseObject-demo.py',['../GABaseObject-demo_8py.html',1,'']]],
-  ['generationcounter',['generationCounter',['../classGeneticAlgorithm_1_1LogGenerations.html#ab9fd13a2f1fcc5c3ae0b36d776fdad5d',1,'GeneticAlgorithm::LogGenerations']]],
-  ['generationlog',['generationLog',['../classGeneticAlgorithm_1_1LogGenerations.html#a907ba5f2abc61f23ac07ce890e520004',1,'GeneticAlgorithm::LogGenerations']]],
+  ['gademo',['GADemo',['../namespaceGADemo.html',1,'']]],
+  ['gademo_2epy',['GADemo.py',['../GADemo_8py.html',1,'']]],
+  ['generationcounter',['generationCounter',['../classGADemo_1_1LogGenerations.html#a50e603bd81e7afb7a22ce73ef271b34c',1,'GADemo::LogGenerations']]],
+  ['generationlog',['generationLog',['../classGADemo_1_1LogGenerations.html#a30b832221e9f567792e093feadecf7b6',1,'GADemo::LogGenerations']]],
   ['geneticalgorithm',['GeneticAlgorithm',['../namespaceGeneticAlgorithm.html',1,'']]],
   ['geneticexampleclass',['GeneticExampleClass',['../classGABaseObject-demo_1_1GeneticExampleClass.html',1,'GABaseObject-demo']]],
   ['geneticoperator',['GeneticOperator',['../classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html',1,'GeneticAlgorithm::Core']]],

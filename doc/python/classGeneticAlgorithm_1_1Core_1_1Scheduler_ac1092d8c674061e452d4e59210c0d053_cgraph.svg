@@ -16,15 +16,15 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="classGeneticAlgorithm_1_1LogGenerations.html#a056f308a3f5d547771a54116694987b1" target="_top" xlink:title="This function is called once at the end of the algorithm run.">
-<polygon fill="white" stroke="black" points="245.5,-280.5 245.5,-301.5 442.5,-301.5 442.5,-280.5 245.5,-280.5"/>
-<text text-anchor="middle" x="344" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.LogGenerations.finalize</text>
+<a xlink:href="classGADemo_1_1LogGenerations.html#a6c99f88d1476f67157089cb50c2692db" target="_top" xlink:title="This function is called once at the end of the algorithm run.">
+<polygon fill="white" stroke="black" points="263,-280.5 263,-301.5 425,-301.5 425,-280.5 263,-280.5"/>
+<text text-anchor="middle" x="344" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations.finalize</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M105.283,-161.799C124.366,-185.827 174.098,-243.729 230,-271 234.91,-273.395 240.063,-275.507 245.352,-277.369"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="244.404,-280.741 254.995,-280.458 246.539,-274.074 244.404,-280.741"/>
+<path fill="none" stroke="midnightblue" d="M105.283,-161.799C124.366,-185.827 174.098,-243.729 230,-271 237.254,-274.539 245.039,-277.46 253.008,-279.869"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="252.228,-283.284 262.798,-282.561 254.084,-276.535 252.228,-283.284"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
@@ -76,9 +76,9 @@
 </g>
 <!-- Node7 -->
 <g id="node13" class="node"><title>Node7</title>
-<a xlink:href="classGeneticAlgorithm_1_1LogGenerations.html#aac4af32dc33f64464d834d329ad10d2c" target="_top" xlink:title="This function is called once every iteration.">
-<polygon fill="white" stroke="black" points="247.5,-80.5 247.5,-101.5 440.5,-101.5 440.5,-80.5 247.5,-80.5"/>
-<text text-anchor="middle" x="344" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.LogGenerations.iterate</text>
+<a xlink:href="classGADemo_1_1LogGenerations.html#a4d5a5b0213f82a325b192f5630779981" target="_top" xlink:title="This function is called once every iteration.">
+<polygon fill="white" stroke="black" points="265,-80.5 265,-101.5 423,-101.5 423,-80.5 265,-80.5"/>
+<text text-anchor="middle" x="344" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations.iterate</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node7 -->

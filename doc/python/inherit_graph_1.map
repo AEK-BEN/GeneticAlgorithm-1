@@ -8,10 +8,10 @@
 <area shape="rect" id="node27" href="$classGeneticAlgorithm_1_1Core_1_1Population.html" title="This class is a container, intended to store references to individuals and all their." alt="" coords="456,325,675,355"/>
 <area shape="rect" id="node29" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html" title="A class that encapsulates a Population and a list of GeneticOperator." alt="" coords="457,379,673,408"/>
 <area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1GenotypeLibrary_1_1BinaryChromosomeSegment.html" title="This class implements an integer variable encoded by a fixed number of bits." alt="" coords="773,5,1165,35"/>
-<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="860,59,1079,88"/>
-<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="871,112,1068,141"/>
-<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1LogGenerations.html" title="GeneticAlgorithm.LogGenerations" alt="" coords="861,165,1077,195"/>
-<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="GeneticAlgorithm.SelectionOperators.SelectLethals" alt="" coords="809,219,1129,248"/>
-<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="808,272,1131,301"/>
-<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1SumSegments.html" title="This class implements a Genetic operator that simply sums the genotype value of every individual and ..." alt="" coords="864,325,1075,355"/>
+<area shape="rect" id="node11" href="$classGADemo_1_1LogGenerations.html" title="GADemo.LogGenerations" alt="" coords="884,59,1055,88"/>
+<area shape="rect" id="node13" href="$classGADemo_1_1SumSegments.html" title="This class implements a Genetic operator that simply sums the genotype value of every individual and ..." alt="" coords="887,112,1052,141"/>
+<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="860,165,1079,195"/>
+<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="871,219,1068,248"/>
+<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="GeneticAlgorithm.SelectionOperators.SelectLethals" alt="" coords="809,272,1129,301"/>
+<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="808,325,1131,355"/>
 </map>

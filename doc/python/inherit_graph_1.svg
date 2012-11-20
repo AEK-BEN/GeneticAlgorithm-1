@@ -114,74 +114,74 @@
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
-<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Crossover.html" target="_top" xlink:title="Crossover two individuals from population.matingPool with probability population.crossoverProbability...">
-<polygon fill="white" stroke="black" points="641,-240.5 641,-261.5 805,-261.5 805,-240.5 641,-240.5"/>
-<text text-anchor="middle" x="723" y="-248.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Crossover</text>
+<a xlink:href="classGADemo_1_1LogGenerations.html" target="_top" xlink:title="GADemo.LogGenerations">
+<polygon fill="white" stroke="black" points="659,-240.5 659,-261.5 787,-261.5 787,-240.5 659,-240.5"/>
+<text text-anchor="middle" x="723" y="-248.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge10" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M451.876,-185.778C482.912,-199.558 531.743,-219.643 576,-231 596.707,-236.314 619.438,-240.284 640.706,-243.224"/>
+<path fill="none" stroke="midnightblue" d="M451.876,-185.778C482.912,-199.558 531.743,-219.643 576,-231 602.694,-237.85 632.754,-242.468 658.703,-245.523"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="453.009,-182.45 442.453,-181.545 450.14,-188.835 453.009,-182.45"/>
 </g>
 <!-- Node7 -->
 <g id="node13" class="node"><title>Node7</title>
-<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Mutate.html" target="_top" xlink:title="Mutate an individual.">
-<polygon fill="white" stroke="black" points="648.5,-200.5 648.5,-221.5 797.5,-221.5 797.5,-200.5 648.5,-200.5"/>
-<text text-anchor="middle" x="723" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Mutate</text>
+<a xlink:href="classGADemo_1_1SumSegments.html" target="_top" xlink:title="This class implements a Genetic operator that simply sums the genotype value of every individual and ...">
+<polygon fill="white" stroke="black" points="660.5,-200.5 660.5,-221.5 785.5,-221.5 785.5,-200.5 660.5,-200.5"/>
+<text text-anchor="middle" x="723" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.SumSegments</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge12" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M509.76,-182.849C553.889,-188.675 606.451,-195.614 648.347,-201.145"/>
+<path fill="none" stroke="midnightblue" d="M509.772,-182.851C558.158,-189.239 616.677,-196.964 660.161,-202.704"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.982,-179.348 499.61,-181.51 509.066,-186.288 509.982,-179.348"/>
 </g>
 <!-- Node8 -->
 <g id="node15" class="node"><title>Node8</title>
-<a xlink:href="classGeneticAlgorithm_1_1LogGenerations.html" target="_top" xlink:title="GeneticAlgorithm.LogGenerations">
-<polygon fill="white" stroke="black" points="641.5,-160.5 641.5,-181.5 804.5,-181.5 804.5,-160.5 641.5,-160.5"/>
-<text text-anchor="middle" x="723" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.LogGenerations</text>
+<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Crossover.html" target="_top" xlink:title="Crossover two individuals from population.matingPool with probability population.crossoverProbability...">
+<polygon fill="white" stroke="black" points="641,-160.5 641,-181.5 805,-181.5 805,-160.5 641,-160.5"/>
+<text text-anchor="middle" x="723" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Crossover</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge14" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M525.132,-171C563.192,-171 605.574,-171 641.318,-171"/>
+<path fill="none" stroke="midnightblue" d="M525.088,-171C562.982,-171 605.164,-171 640.817,-171"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="525.04,-167.5 515.04,-171 525.04,-174.5 525.04,-167.5"/>
 </g>
 <!-- Node9 -->
 <g id="node17" class="node"><title>Node9</title>
-<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" target="_top" xlink:title="GeneticAlgorithm.SelectionOperators.SelectLethals">
-<polygon fill="white" stroke="black" points="603,-120.5 603,-141.5 843,-141.5 843,-120.5 603,-120.5"/>
-<text text-anchor="middle" x="723" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SelectLethals</text>
+<a xlink:href="classGeneticAlgorithm_1_1Core_1_1Mutate.html" target="_top" xlink:title="Mutate an individual.">
+<polygon fill="white" stroke="black" points="648.5,-120.5 648.5,-141.5 797.5,-141.5 797.5,-120.5 648.5,-120.5"/>
+<text text-anchor="middle" x="723" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.Core.Mutate</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node9 -->
 <g id="edge16" class="edge"><title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M509.655,-159.164C552.085,-153.563 602.329,-146.93 643.397,-141.509"/>
+<path fill="none" stroke="midnightblue" d="M509.76,-159.151C553.889,-153.325 606.451,-146.386 648.347,-140.855"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.066,-155.712 499.61,-160.49 509.982,-162.652 509.066,-155.712"/>
 </g>
 <!-- Node10 -->
 <g id="node19" class="node"><title>Node10</title>
-<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" target="_top" xlink:title="This operator performs stochastic uniform selection over the population, updating the field matingPoo...">
-<polygon fill="white" stroke="black" points="602,-80.5 602,-101.5 844,-101.5 844,-80.5 602,-80.5"/>
-<text text-anchor="middle" x="723" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SUSSelection</text>
+<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" target="_top" xlink:title="GeneticAlgorithm.SelectionOperators.SelectLethals">
+<polygon fill="white" stroke="black" points="603,-80.5 603,-101.5 843,-101.5 843,-80.5 603,-80.5"/>
+<text text-anchor="middle" x="723" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SelectLethals</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node10 -->
 <g id="edge18" class="edge"><title>Node5&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M524.727,-158.029C530.013,-155.995 535.139,-153.666 540,-151 560.972,-139.5 554.859,-122.184 576,-111 584.082,-106.724 592.749,-103.25 601.684,-100.437"/>
+<path fill="none" stroke="midnightblue" d="M524.727,-158.029C530.013,-155.995 535.139,-153.666 540,-151 560.972,-139.5 554.859,-122.184 576,-111 584.424,-106.544 593.483,-102.958 602.818,-100.084"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="523.366,-154.796 515.064,-161.379 525.659,-161.41 523.366,-154.796"/>
 </g>
 <!-- Node11 -->
 <g id="node21" class="node"><title>Node11</title>
-<a xlink:href="classGeneticAlgorithm_1_1SumSegments.html" target="_top" xlink:title="This class implements a Genetic operator that simply sums the genotype value of every individual and ...">
-<polygon fill="white" stroke="black" points="643.5,-40.5 643.5,-61.5 802.5,-61.5 802.5,-40.5 643.5,-40.5"/>
-<text text-anchor="middle" x="723" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SumSegments</text>
+<a xlink:href="classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" target="_top" xlink:title="This operator performs stochastic uniform selection over the population, updating the field matingPoo...">
+<polygon fill="white" stroke="black" points="602,-40.5 602,-61.5 844,-61.5 844,-40.5 602,-40.5"/>
+<text text-anchor="middle" x="723" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.SelectionOperators.SUSSelection</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node11 -->
 <g id="edge20" class="edge"><title>Node5&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M524.568,-160.395C530.036,-157.78 535.231,-154.675 540,-151 570.884,-127.201 544.763,-94.334 576,-71 595.19,-56.665 619.837,-50.1057 643.444,-47.5646"/>
+<path fill="none" stroke="midnightblue" d="M524.568,-160.395C530.036,-157.78 535.231,-154.675 540,-151 570.884,-127.201 544.763,-94.334 576,-71 583.841,-65.1427 592.593,-60.5836 601.813,-57.0663"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="523.007,-157.255 515.138,-164.35 525.714,-163.71 523.007,-157.255"/>
 </g>
 </g>
