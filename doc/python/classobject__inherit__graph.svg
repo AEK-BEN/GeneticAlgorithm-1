@@ -213,23 +213,24 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
-<a xlink:href="classGADemo_1_1LogGenerations.html" target="_top" xlink:title="{GADemo.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l|+ __init__()\l+ iterate()\l+ finalize()\l}">
-<polygon fill="white" stroke="black" points="312,-7 312,-135 440,-135 440,-7 312,-7"/>
-<text text-anchor="middle" x="376" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations</text>
-<polyline fill="none" stroke="black" points="312,-114 440,-114 "/>
-<text text-anchor="start" x="320" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
-<text text-anchor="start" x="320" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
-<text text-anchor="start" x="320" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
-<text text-anchor="start" x="320" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
-<polyline fill="none" stroke="black" points="312,-54 440,-54 "/>
-<text text-anchor="start" x="320" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
-<text text-anchor="start" x="320" y="-28" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
-<text text-anchor="start" x="320" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
+<a xlink:href="classGADemo_1_1LogGenerations.html" target="_top" xlink:title="{GADemo.LogGenerations\n|+ generationLog\l+ numEvaluations\l+ generationCounter\l+ saveFrequency\l+ nE\l|+ __init__()\l+ iterate()\l+ finalize()\l}">
+<polygon fill="white" stroke="black" points="312,-0.5 312,-141.5 440,-141.5 440,-0.5 312,-0.5"/>
+<text text-anchor="middle" x="376" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">GADemo.LogGenerations</text>
+<polyline fill="none" stroke="black" points="312,-120.5 440,-120.5 "/>
+<text text-anchor="start" x="320" y="-107.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationLog</text>
+<text text-anchor="start" x="320" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ numEvaluations</text>
+<text text-anchor="start" x="320" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ generationCounter</text>
+<text text-anchor="start" x="320" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ saveFrequency</text>
+<text text-anchor="start" x="320" y="-55.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ nE</text>
+<polyline fill="none" stroke="black" points="312,-47.5 440,-47.5 "/>
+<text text-anchor="start" x="320" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ __init__()</text>
+<text text-anchor="start" x="320" y="-21.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ iterate()</text>
+<text text-anchor="start" x="320" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ finalize()</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge10" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M577.451,-210.012C535.766,-192.208 488.422,-169.028 449,-142 445.792,-139.801 442.596,-137.455 439.435,-135.004"/>
+<path fill="none" stroke="midnightblue" d="M577.451,-210.012C535.766,-192.208 488.422,-169.028 449,-142 446.084,-140.001 443.178,-137.88 440.298,-135.67"/>
 <polygon fill="none" stroke="midnightblue" points="576.232,-213.296 586.806,-213.959 578.953,-206.847 576.232,-213.296"/>
 </g>
 <!-- Node7 -->

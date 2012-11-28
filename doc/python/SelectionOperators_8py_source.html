@@ -134,11 +134,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00032"></a>00032         <span class="comment"># Adjust the pdf for minimization</span>
 <a name="l00033"></a>00033         <span class="keywordflow">if</span> <span class="keywordflow">not</span> population.maximize:
 <a name="l00034"></a>00034             pdf = [0.0]*n
-<a name="l00035"></a>00035             M = max(fit)
+<a name="l00035"></a>00035             M = max(fit) + (1.0)
 <a name="l00036"></a>00036             <span class="keywordflow">for</span> i <span class="keywordflow">in</span> xrange(n):
-<a name="l00037"></a>00037                 pdf[i] = M - fit[i]  
+<a name="l00037"></a>00037                 pdf[i] = M - fit[i]
 <a name="l00038"></a>00038         <span class="keywordflow">else</span>:
-<a name="l00039"></a>00039             pdf = fit              
+<a name="l00039"></a>00039             pdf = fit        
 <a name="l00040"></a>00040         <span class="comment"># Normalization factor</span>
 <a name="l00041"></a>00041         F = reduce(<span class="keyword">lambda</span> x, y: x+y, pdf)
 <a name="l00042"></a>00042         <span class="comment"># Cumulative distribution function</span>
@@ -188,7 +188,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="SelectionOperators_8py.html">SelectionOperators.py</a>      </li>
 
-    <li class="footer">Generated on Tue Nov 20 2012 15:17:04 for GeneticAlgorithm by
+    <li class="footer">Generated on Tue Nov 20 2012 18:31:43 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

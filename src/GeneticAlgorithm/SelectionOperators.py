@@ -32,11 +32,11 @@ class SUSSelection(GeneticOperator):
         # Adjust the pdf for minimization
         if not population.maximize:
             pdf = [0.0]*n
-            M = max(fit)
+            M = max(fit) + (1.0)
             for i in xrange(n):
-                pdf[i] = M - fit[i]  
+                pdf[i] = M - fit[i]
         else:
-            pdf = fit              
+            pdf = fit        
         # Normalization factor
         F = reduce(lambda x, y: x+y, pdf)
         # Cumulative distribution function

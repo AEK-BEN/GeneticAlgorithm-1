@@ -22,7 +22,7 @@ class SumSegments(Core.GeneticOperator):
     ## Set the initialize, iterate and finalize methods to point to sumSegments
     initialize = sumSegments;
     iterate    = sumSegments;
-    finalize   = sumSegments;   
+    finalize   = sumSegments; 
 
 class LogGenerations(Core.GeneticOperator):
     def __init__(self, **kwargs):
@@ -34,18 +34,21 @@ class LogGenerations(Core.GeneticOperator):
         
     def iterate(self, population):
         self.generationCounter = self.generationCounter + 1        
+        # Evaluate only recently generated items (pointed to by population.lethals)        
+        lethals = getattr(population, 'lethals', None )
+        #  If population.lethals does not exist, update every individual (and set the lethals list to contain every index)
+        if not lethals:
+            lethals = range(len(population.individuals))
+        # The plain number of evaluations counter is initialized in 0 if not found
+        self.nE = getattr(self, 'nE', 0) + len(lethals)
+        # If this generation should be logged
         if (self.generationCounter % self.saveFrequency) ==0:
-            # Evaluate only recently generated items (pointed to by population.lethals)        
-            lethals = getattr(population, 'lethals', None )
-            #  If population.lethals does not exist, update every individual (and set the lethals list to contain every index)
-            if not lethals:
-                lethals = range(len(population.individuals))
+            # Initialize the number of evaluations to an empty list if it does not exist
             if not getattr(self, 'numEvaluations', None):
-                nE = 0
                 self.numEvaluations = []
-            else:
-                nE = self.numEvaluations[-1]
-            self.numEvaluations.append(nE + len(lethals))
+            # Append the plain number of evaluations to the evaluation counter
+            self.numEvaluations.append(self.nE)            
+            # Make a deep copy of the population and log it
             self.generationLog.append(copy.deepcopy(population))
     
     def finalize(self, population):
@@ -53,8 +56,8 @@ class LogGenerations(Core.GeneticOperator):
             print 'Number of evaluations %d' % ev + str(pop) + '\n'
 
 if __name__=='__main__':
-    random.seed(2)
+    random.seed(0)
     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i) for i in range(1,4)])
-    p  = Core.Population(schema=ch, popSize=50, maximize=True)
-    ga = Core.Scheduler(name='Demo', population=p, operators=[SumSegments(), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate(), LogGenerations(saveFrequency=10)])    
+    p  = Core.Population(schema=ch, popSize=10, genSize=10, maximize=False)#, mutation_probability=0.01, maximize=True)
+    ga = Core.Scheduler(name='Demo', population=p, operators=[SumSegments(), LogGenerations(saveFrequency=1), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])    
     ga.runGA(100)

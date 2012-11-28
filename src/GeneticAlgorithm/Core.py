@@ -70,7 +70,7 @@ class GeneticOperator(GABaseObject):
 #  @brief Mutate an individual
 class Mutate(GeneticOperator):
     def mutate(self, population):
-        pm = getattr(population, 'mutation_probability', 0.1 )        
+        pm = getattr(population, 'mutation_probability', 0.01 )        
         # Evaluate only recently generated items (pointed to by population.lethals)        
         lethals = getattr(population, 'lethals', None )
         #  If population.lethals does not exist, update every individual (and set the lethals list to contain every index)
@@ -241,7 +241,7 @@ class Individual(GABaseObject):
     #
     #  The minimum expression of an individual is to have a genotype and fitness value. Any other imaginable property can be added at this stage by passing a named parameter 
     def __init__(self, genotype=Genotype(), fitness=0.0, **kwargs):
-        super(Individual, self).__init__(genotype=genotype, fitness=fitness, **kwargs)
+        super(Individual, self).__init__(genotype=genotype, fitness=fitness, **kwargs)        
             
     ## @fn randomize(self)
     #  @brief Call self.genotype.randomize()

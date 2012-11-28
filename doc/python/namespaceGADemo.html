@@ -113,8 +113,8 @@ Classes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a> = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i) for i in range(1,4)])</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=50, maximize=True)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">ga</a> = Core.Scheduler(name='Demo', population=<a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a>, operators=[<a class="el" href="classGADemo_1_1SumSegments.html">SumSegments</a>(), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate(), <a class="el" href="classGADemo_1_1LogGenerations.html">LogGenerations</a>(saveFrequency=10)])</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=10, genSize=1, maximize=False)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">ga</a> = Core.Scheduler(name='Demo', population=<a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a>, operators=[<a class="el" href="classGADemo_1_1SumSegments.html">SumSegments</a>(), <a class="el" href="classGADemo_1_1LogGenerations.html">LogGenerations</a>(saveFrequency=10), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])</td></tr>
 </table>
 <hr/><h2>Variable Documentation</h2>
 <a class="anchor" id="a4c1eb6bc12fd1f6f081e1b8aa3de3742"></a><!-- doxytag: member="GADemo::ch" ref="a4c1eb6bc12fd1f6f081e1b8aa3de3742" args="" -->
@@ -128,7 +128,7 @@ Variables</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00057">57</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00060">60</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -137,13 +137,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">GADemo::ga</a> = Core.Scheduler(name='Demo', population=<a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a>, operators=[<a class="el" href="classGADemo_1_1SumSegments.html">SumSegments</a>(), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate(), <a class="el" href="classGADemo_1_1LogGenerations.html">LogGenerations</a>(saveFrequency=10)])</td>
+          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">GADemo::ga</a> = Core.Scheduler(name='Demo', population=<a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a>, operators=[<a class="el" href="classGADemo_1_1SumSegments.html">SumSegments</a>(), <a class="el" href="classGADemo_1_1LogGenerations.html">LogGenerations</a>(saveFrequency=10), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00059">59</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00062">62</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -152,13 +152,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">GADemo::p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=50, maximize=True)</td>
+          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">GADemo::p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=10, genSize=1, maximize=False)</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00058">58</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00061">61</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -182,7 +182,7 @@ Variables</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="namespaceGADemo.html">GADemo</a>      </li>
 
-    <li class="footer">Generated on Tue Nov 20 2012 15:17:04 for GeneticAlgorithm by
+    <li class="footer">Generated on Tue Nov 20 2012 18:31:43 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
