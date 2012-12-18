@@ -57,7 +57,7 @@ class LogGenerations(Core.GeneticOperator):
 
 if __name__=='__main__':
     random.seed(0)
-    ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i) for i in range(1,4)])
-    p  = Core.Population(schema=ch, popSize=10, genSize=10, maximize=False)#, mutation_probability=0.01, maximize=True)
+    ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i*10) for i in range(1,4)])
+    p  = Core.Population(schema=ch, popSize=100, genSize=10, maximize=False)#, mutation_probability=0.01, maximize=True)
     ga = Core.Scheduler(name='Demo', population=p, operators=[SumSegments(), LogGenerations(saveFrequency=1), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])    
-    ga.runGA(100)
+    ga.runGA(1000)
