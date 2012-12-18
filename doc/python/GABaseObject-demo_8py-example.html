@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="fragment"><pre class="fragment"><span class="comment">## @file GABaseObject-demo.py</span>
 <span class="comment">#  @brief This file demonstrates the usage model of the GABaseObject function</span>
 
-<span class="keyword">from</span> GeneticAlgorithm <span class="keyword">import</span> GABaseObject
+<span class="keyword">from</span> GeneticAlgorithm.Core <span class="keyword">import</span> GABaseObject
 
 <span class="comment"># This class exemplifies the advantages of deriving a class from the GABaseObject. </span>
 <span class="comment"># Let&#39;s have it inherit every function and property from the GABaseObject with no change.</span>
@@ -111,6 +111,7 @@ obj = GeneticExampleClass( name=<span class="stringliteral">&#39;Example&#39;</s
 
 <span class="comment"># We can use the str() or repr() command to print the object</span>
 <span class="keywordflow">print</span> str(obj) == repr(obj), str(obj)
+<span class="keywordflow">print</span> obj.name
 </pre></div> </div><!-- contents -->
 </div><!-- contents -->
 <!-- window showing the filter options -->
@@ -131,7 +132,7 @@ obj = GeneticExampleClass( name=<span class="stringliteral">&#39;Example&#39;</s
   <div id="nav-path" class="navpath">
     <ul>
 
-    <li class="footer">Generated on Tue Nov 20 2012 18:31:43 for GeneticAlgorithm by
+    <li class="footer">Generated on Tue Dec 18 2012 17:55:06 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

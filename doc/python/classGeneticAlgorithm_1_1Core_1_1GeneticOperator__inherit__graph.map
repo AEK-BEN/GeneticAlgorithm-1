@@ -5,6 +5,7 @@
 <area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="632,527,829,612"/>
 <area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="{GeneticAlgorithm.SelectionOperators.SelectLethals\n|+ iterate\l|+ select()\l}" alt="" coords="853,527,1173,612"/>
 <area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="1197,527,1520,612"/>
-<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="492,139,737,259"/>
-<area shape="rect" id="node4" href="$classobject.html" title="{object\n||}" alt="" coords="587,5,643,91"/>
+<area shape="rect" id="node19" href="$classOrdonezDemo_1_1Ordonez.html" title="{OrdonezDemo.Ordonez\n|+ initialize\l+ iterate\l+ finalize\l|+ decode()\l}" alt="" coords="1544,509,1701,629"/>
+<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="608,139,853,259"/>
+<area shape="rect" id="node4" href="$classobject.html" title="{object\n||}" alt="" coords="703,5,759,91"/>
 </map>

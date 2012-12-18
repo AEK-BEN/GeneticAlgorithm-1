@@ -1,7 +1,7 @@
 var searchData=
 [
   ['core',['Core',['../namespaceGeneticAlgorithm_1_1Core.html',1,'GeneticAlgorithm']]],
-  ['ga',['ga',['../namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a',1,'GADemo']]],
+  ['ga',['ga',['../namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a',1,'GADemo.ga()'],['../namespaceOrdonezDemo.html#a5e35b81fe5c23442ab73a0bdc42d76a1',1,'OrdonezDemo.ga()']]],
   ['gabaseobject',['GABaseObject',['../classGeneticAlgorithm_1_1Core_1_1GABaseObject.html',1,'GeneticAlgorithm::Core']]],
   ['gabaseobject_2ddemo',['GABaseObject-demo',['../namespaceGABaseObject-demo.html',1,'']]],
   ['gabaseobject_2ddemo_2epy',['GABaseObject-demo.py',['../GABaseObject-demo_8py.html',1,'']]],

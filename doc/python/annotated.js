@@ -15,5 +15,6 @@ var annotated =
     [ "GeneticAlgorithm.GenotypeLibrary.BinaryChromosomeSegment", "classGeneticAlgorithm_1_1GenotypeLibrary_1_1BinaryChromosomeSegment.html", "classGeneticAlgorithm_1_1GenotypeLibrary_1_1BinaryChromosomeSegment" ],
     [ "GeneticAlgorithm.SelectionOperators.SelectLethals", "classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html", "classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals" ],
     [ "GeneticAlgorithm.SelectionOperators.SUSSelection", "classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html", "classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection" ],
-    [ "object", "classobject.html", null ]
+    [ "object", "classobject.html", null ],
+    [ "OrdonezDemo.Ordonez", "classOrdonezDemo_1_1Ordonez.html", "classOrdonezDemo_1_1Ordonez" ]
 ];
