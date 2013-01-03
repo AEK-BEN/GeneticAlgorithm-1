@@ -2,4 +2,8 @@ import copy
 import random
 import Core
 import GenotypeLibrary
+import EvaluationOperators
 import SelectionOperators
+import LoggingOperators
+import PlottingOperators
+import GraphLibrary

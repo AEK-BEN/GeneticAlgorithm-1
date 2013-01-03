@@ -2,21 +2,31 @@ import copy
 import random
 from Core import *
 
-
+## @class SelectLethals
+#  @brief Select the individuals to replace based on the population.maximize flag and the population.genSize property
+#
+#  Select as many individuals as indicated by population.genSize to be replaced during the next crossover operation
 class SelectLethals(GeneticOperator):
+    ## @fn select(self, population)
+    #  @brief Select the individuals to replace based on the population.maximize flag and the population.genSize property
     def select(self, population):        
+        # Get the population size
         n = len(population.individuals)
         # Get the amount of offspring to produce (2*m = len(mating_pool))
-        m = getattr(population, 'genSize', n)        
+        m = getattr(population, 'genSize', n)
+        #  Get a fitness vector out of the individual vector        
         fitness = [individual.fitness for individual in population.individuals]
         indices = range(n)
         sortedFitness = sorted(zip(fitness, indices), key=lambda x: x[0])
+        # Select the m worse individuals in the generation to be replaced
         if population.maximize:
             L = sortedFitness[:m]
         else:
             L = sortedFitness[-m:]
+        # Update the lethals vector
         population.lethals = [l[1] for l in L]
-    iterate = select
+    # Select individuals for replacement only during the iterate phase of runGA    
+    iterate     = select
         
 ## @class SUSSelection
 #  @brief This operator performs stochastic uniform selection over the population, updating the field matingPool

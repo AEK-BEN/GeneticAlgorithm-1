@@ -65,6 +65,50 @@ class GeneticOperator(GABaseObject):
     #  @brief This function is called once at the end of the algorithm run
     def finalize(self, population):
         pass
+
+## @class BasePeriodicOperator
+#  @brief A class that serves as a base for all periodic operators
+#
+#  This class automatically counts the number iterate has been called, and the number of individuals that have been evaluated so far.
+#  The operator calls the iterationCallback function whenever the iteration call count is an integer multiple of iterationFrequency.
+#  The operator calls the evaluationCallback function whenever the number of evaluated individuals is an integer multiple of evaluationFrequency
+class BasePeriodicOperator(GeneticOperator):
+    ## @fn __init__(self, iterationCounter=0, evaluationCounter=0, iterationFrequency=0, evaluationFrequency=0, **kwargs)
+    #  @brief Base periodic logger constructor
+    #  @param iterationCounter    An initial value for the iteration counter
+    #  @param evaluationCounter   An initial value for the individual evaluation counter
+    #  @param iterationFrequency  This parameter controls how many iterations have to pass between iterationCallback calls
+    #  @param evaluationFrequency This parameter controls how many individuals are evaluated between evaluationCallback calls
+    def __init__(self, **kwargs):
+        super(BasePeriodicOperator, self).__init__(**kwargs)
+        self.iterationCounter    = kwargs.get('iterationCounter'   , 0)
+        self.evaluationCounter   = kwargs.get('evaluationCounter'  , 0)
+        self.iterationFrequency  = kwargs.get('iterationFrequency' , None)
+        self.evaluationFrequency = kwargs.get('evaluationFrequency', None)
+
+    
+    ## @fn iterationCallback(self, population)
+    #  @brief Overload this function to perform logging every time that the iterationCounter counter is an integer multiple of iterationFrequency
+    def iterationCallback(self, population):
+        pass
+    
+    ## @fn evaluationCallback(self, population)
+    #  @brief Overload this function to perform logging every time that the evaluationCounter is an integer multiple of evaluationFrequency
+    def evaluationCallback(self, population):
+        pass
+    
+    ## @fn iterate(self, population)
+    #  This function counts the number of times it has been called, and the number of individuals that have been evaluated so far, and calls the iterationCallback and evaluatioLogger functions accordingly
+    def iterate(self, population):
+        # Update the iteration counter and call the iterationCallback function whenever (self.iterationCounter % self.iterationFrequency) == 0
+        self.iterationCounter  += 1
+        # Update the evaluationCounter and call the evaluationCallback whenever (self.evaluationCounter % self.evaluationFrequency)==0
+        self.evaluationCounter   += getattr(population, 'genSize', len(population.individuals) )
+        if self.iterationFrequency and ((self.iterationCounter % self.iterationFrequency) == 0):
+            self.iterationCallback(population)
+        if self.evaluationFrequency and ((self.evaluationCounter % self.evaluationFrequency)==0):
+            self.evaluationCallback(population)
+
     
 ## @class Mutate
 #  @brief Mutate an individual
@@ -103,14 +147,16 @@ class Crossover(GeneticOperator):
             raise RuntimeError('No mating pool found on population, a selection operator must come before Crossover')
         # Generate the offspring and insert them in different loops, to conserve the parents unchanged for crossover   
         for i in xrange(nLethals):
+            offspring[i] = population.individuals[ matingPool[0] ]
             if random.random() < pc:         
-                offspring[i] = population.individuals[ matingPool[0] ].crossover( population.individuals[ matingPool[1] ] )
-            else:
-                offspring[i] = copy.deepcopy(population.individuals[ matingPool[0] ])
+                offspring[i] = offspring[i].crossover( population.individuals[matingPool[1]] )
+            # Make a deep copy of the new individual, to avoid a single segment to be referenced by several genotypes
+            offspring[i] = copy.deepcopy(offspring[i])
+            # Remove the first two parents from the mating pool
             matingPool = matingPool[2:]
         # Insert the offspring in the population
         for i, o in zip(lethals, offspring):
-            population.individuals[i] = o    
+            population.individuals[i] = o
     iterate = cross;
     
 ## @class BaseChromosomeSegment
@@ -141,13 +187,13 @@ class BaseChromosomeSegment(GABaseObject):
         # Set all named properties first
         super(BaseChromosomeSegment, self).__init__(**kwargs)
         ## @property data This property returns the data used to produce a Genotype
-        if data:
+        if data==None:
+            # If no data was provided, randomize the chromosome segment
+            self.randomize()
+        else:
             ## @property data
             #  @brief The property that stores the chromosome segment value
             self.data  = data
-        else:
-            # If no data was provided, randomize the chromosome segment
-            self.randomize()
         
     ## @fn randomize(self)
     #  @brief Assign a valid, random value to self.data

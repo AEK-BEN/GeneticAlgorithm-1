@@ -45,14 +45,14 @@ class BinaryChromosomeSegment(BaseChromosomeSegment):
             v = int(value) & self.maxValue()
         else:
             v = value
-        super(BinaryChromosomeSegment, self).__setattr__(attr, value)
+        super(BinaryChromosomeSegment, self).__setattr__(attr, v)
     
     ## @fn crossover
     #  @brief Cross two chromosomes choosing a single cross point within the limits of self.    
     #  @return A new BinaryChromosomeSegment object that contains the result of combining self and other
     def crossover(self, other):
         crossPoint = (1<<random.randint(0,self.nBits))-1;
-        return BinaryChromosomeSegment(nBits=self.nBits, data=((self.data&crossPoint) | (other.data - (other.data&(~crossPoint)))))
+        return BinaryChromosomeSegment(nBits=self.nBits, data=((self.data&crossPoint) | (other.data ^ (other.data&(crossPoint)))))
     
     ## @fn mutate(self)
     #  @brief Perform a single bit mutation within the range of self

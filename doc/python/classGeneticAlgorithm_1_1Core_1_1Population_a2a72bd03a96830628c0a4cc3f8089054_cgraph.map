@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classGeneticAlgorithm_1_1Core_1_1Population.html#a79a9cbd0daf35c1432e79dfd576710f0" title="Generate the list of individuals by copying the schema n times." alt="" coords="379,5,651,35"/>
-<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1Core_1_1BaseChromosomeSegment.html#a6da4e277b89726aeeeb6dc02b4f889ad" title="Assign a valid, random value to self.data." alt="" coords="324,59,705,88"/>
-<area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1Core_1_1Genotype.html#a6ddf94bd47d74a3307d847fdcdc62ce7" title="GeneticAlgorithm.Core.Genotype.randomize" alt="" coords="376,112,653,141"/>
-<area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1Core_1_1Individual.html#acd35d01763e3c369b1b05cfa3b434b7b" title="Call self.genotype.randomize()" alt="" coords="376,165,653,195"/>
-<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1Core_1_1Population.html#ad914148c978e0dc19cbcdafb009f4ac3" title="Randomize the population by calling randomize on each individual." alt="" coords="373,219,656,248"/>
-</map>
