@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html#a90706b8d7851eb63cca447a36a2a6206" title="This function is called once at the end of the algorithm run." alt="" coords="325,5,624,35"/>
+<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html#ac908478a7dd8d6f3924b9ddbc43c53d2" title="This function is called once at the end of the runGA method." alt="" coords="344,59,605,88"/>
+<area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html#adb54985e7880c5b826d0fcc42b900289" title="This function is called once, during the startup phase of the algorithm." alt="" coords="323,112,627,141"/>
+<area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html#ab5b32dc413792c0e00d27cf954fc8bf6" title="This function is called at the begining of the runGA method." alt="" coords="341,165,608,195"/>
+<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html#a534b2db8f48295f6502771d288b959cb" title="This function is called once every iteration." alt="" coords="328,219,621,248"/>
+<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html#aa5a2e48f42f8ebcce84980cd858eb728" title="This function counts the number of times it has been called, and the number of individuals that have ..." alt="" coords="312,272,637,301"/>
+<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1Core_1_1Scheduler.html#a050ad156c72382e3ab3760763a5ca873" title="This function is called every iteration of the runGA method." alt="" coords="347,325,603,355"/>
+<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html#a9859bce7179872dfff3d58f8032a799b" title="Overload this function to perform logging every time that the evaluationCounter is an integer multipl..." alt="" coords="687,245,1084,275"/>
+<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html#a06b5d7a71413ec558d525b4537035819" title="Overload this function to perform logging every time that the iterationCounter counter is an integer ..." alt="" coords="692,299,1079,328"/>
+</map>
