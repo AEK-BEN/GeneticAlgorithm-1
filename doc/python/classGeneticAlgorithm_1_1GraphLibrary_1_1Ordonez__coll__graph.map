@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="5,307,259,427"/>
-<area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="9,139,255,259"/>
-<area shape="rect" id="node6" href="$classobject.html" title="{object\n||}" alt="" coords="104,5,160,91"/>
+<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html" title="This class provides an easy way of developing evaluation operators that only evaluate recently replac..." alt="" coords="5,475,395,613"/>
+<area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="73,307,327,427"/>
+<area shape="rect" id="node6" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="77,139,323,259"/>
+<area shape="rect" id="node8" href="$classobject.html" title="{object\n||}" alt="" coords="172,5,228,91"/>
 </map>

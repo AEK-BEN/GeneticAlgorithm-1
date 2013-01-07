@@ -32,7 +32,7 @@
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 916;
+var viewWidth = 1276;
 var viewHeight = 30;
 var sectionId = 'dynsection-3';
 </script>
@@ -40,7 +40,7 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>G</title>
-<polygon fill="white" stroke="white" points="-4,5 -4,-26 913,-26 913,5 -4,5"/>
+<polygon fill="white" stroke="white" points="-4,5 -4,-26 1273,-26 1273,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-21.5 260,-21.5 260,-0.5 0,-0.5"/>
@@ -60,7 +60,7 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc" target="_top" xlink:title="GeneticAlgorithm.PlottingOperators.PlotBestLogger.plotCallback">
+<a xlink:href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b" target="_top" xlink:title="Logs the best found so far using it&#39;s parent callback, and then plots the historic progression of the...">
 <polygon fill="white" stroke="black" points="610.5,-0.5 610.5,-21.5 907.5,-21.5 907.5,-0.5 610.5,-0.5"/>
 <text text-anchor="middle" x="759" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.PlottingOperators.PlotBestLogger.plotCallback</text>
 </a>
@@ -69,6 +69,18 @@ var sectionId = 'dynsection-3';
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M584.377,-11C592.997,-11 601.665,-11 610.283,-11"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="584.286,-7.5001 574.285,-11 584.285,-14.5001 584.286,-7.5001"/>
+</g>
+<!-- Node4 -->
+<g id="node7" class="node"><title>Node4</title>
+<a xlink:href="classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#ab2b0061b5c63dcd88ca30d94282e88ab" target="_top" xlink:title="(self, population):">
+<polygon fill="white" stroke="black" points="944.5,-0.5 944.5,-21.5 1267.5,-21.5 1267.5,-0.5 944.5,-0.5"/>
+<text text-anchor="middle" x="1106" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">GeneticAlgorithm.GraphLibrary.BestPathPlotLogger.plotGraphCallback</text>
+</a>
+</g>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M917.947,-11C926.726,-11 935.555,-11 944.344,-11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="917.669,-7.5001 907.669,-11 917.669,-14.5001 917.669,-7.5001"/>
 </g>
 </g>
 </svg>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a48148abde69ffc26637ce171f2df5fdf" title="Add a new individual to the log if it is different to the best logged so far." alt="" coords="451,32,821,61"/>
-<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a135f375954a5768fe40c1cbba4c9c45d" title="GeneticAlgorithm.LoggingOperators.BestLogger.addToLog" alt="" coords="871,5,1228,35"/>
-<area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a225341823e21663ecc6a0033f3efca89" title="Get the best individual out of the list containing the population and the best individual found so fa..." alt="" coords="876,59,1223,88"/>
-</map>

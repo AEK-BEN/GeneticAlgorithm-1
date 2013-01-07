@@ -101,12 +101,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">GeneticAlgorithm.PlottingOperators.PlotBestLogger Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<!-- doxytag: class="GeneticAlgorithm::PlottingOperators::PlotBestLogger" --><!-- doxytag: inherits="GeneticAlgorithm::LoggingOperators::BestLogger" --><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+<!-- doxytag: class="GeneticAlgorithm::PlottingOperators::PlotBestLogger" --><!-- doxytag: inherits="GeneticAlgorithm::LoggingOperators::BestLogger" -->
+<p>A BestLogger specialization that plots the historic progression of the best criterion with each tick.  
+ <a href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#details">More...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for GeneticAlgorithm.PlottingOperators.PlotBestLogger:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
@@ -128,18 +132,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#ad9b001c19a7e104217b5c23e1fcf4bad">__init__</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Base periodic logger constructor.  <a href="#ad9b001c19a7e104217b5c23e1fcf4bad"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">plotCallback</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a1da58937aa640a256bc41766a62ba77f">finalize</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called once at the end of the algorithm run.  <a href="#a1da58937aa640a256bc41766a62ba77f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">plotCallback</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs the best found so far using it's parent callback, and then plots the historic progression of the evaluation criteria.  <a href="#aa99b2cd0a1a433979b0d5945fe6aec7b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a4334c0f500d10aa3bb3318258db48845">finalize</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">This function shows the plot one more time, and then blocks to allow the user to choose when the plot window is terminated.  <a href="#a4334c0f500d10aa3bb3318258db48845"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a19d53627da6ec49ccb66989da91752bb">criterionAxis</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a23272a826c8caa22706bdb51849926ff">figure</a></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a78df590f68422ce804437a5c077ac4d4">iterationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">plotCallback</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a60362b3e5794b8ff0bacaf5e1a60973f">evaluationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">plotCallback</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a78df590f68422ce804437a5c077ac4d4">iterationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">plotCallback</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a60362b3e5794b8ff0bacaf5e1a60973f">evaluationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">plotCallback</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00005">5</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+<div class="textblock"><p>A BestLogger specialization that plots the historic progression of the best criterion with each tick. </p>
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00007">7</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad9b001c19a7e104217b5c23e1fcf4bad"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::__init__" ref="ad9b001c19a7e104217b5c23e1fcf4bad" args="" -->
 <div class="memitem">
@@ -150,6 +159,18 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>criterionAxis</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>figure</em> = <code>None</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -166,30 +187,17 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Base periodic logger constructor. </p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">iterationCounter</td><td>An initial value for the iteration counter </td></tr>
-    <tr><td class="paramname">evaluationCounter</td><td>An initial value for the individual evaluation counter </td></tr>
-    <tr><td class="paramname">iterationFrequency</td><td>This parameter controls how many iterations have to pass between iterationCallback calls </td></tr>
-    <tr><td class="paramname">evaluationFrequency</td><td>This parameter controls how many individuals are evaluated between evaluationCallback calls </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a987ff2c3904558556c44ee481fa52eee">GeneticAlgorithm.LoggingOperators.BestLogger</a>.</p>
-
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00006">6</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00014">14</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a1da58937aa640a256bc41766a62ba77f"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::finalize" ref="a1da58937aa640a256bc41766a62ba77f" args="" -->
+<a class="anchor" id="a4334c0f500d10aa3bb3318258db48845"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::finalize" ref="a4334c0f500d10aa3bb3318258db48845" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a1da58937aa640a256bc41766a62ba77f">GeneticAlgorithm.PlottingOperators.PlotBestLogger.finalize</a> </td>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a4334c0f500d10aa3bb3318258db48845">GeneticAlgorithm::PlottingOperators.PlotBestLogger::finalize</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -209,55 +217,69 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>This function is called once at the end of the algorithm run. </p>
+<p>This function shows the plot one more time, and then blocks to allow the user to choose when the plot window is terminated. </p>
+
+<p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a094abab138761996021fe2b9e78fc9c7">GeneticAlgorithm.LoggingOperators.BestLogger</a>.</p>
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00046">46</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa99b2cd0a1a433979b0d5945fe6aec7b"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::plotCallback" ref="aa99b2cd0a1a433979b0d5945fe6aec7b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">GeneticAlgorithm::PlottingOperators.PlotBestLogger::plotCallback</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>population</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Logs the best found so far using it's parent callback, and then plots the historic progression of the evaluation criteria. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">population</td><td>The population object to operate upon </td></tr>
+    <tr><td class="paramname">population</td><td>The population used to look for the best found so far </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a094abab138761996021fe2b9e78fc9c7">GeneticAlgorithm.LoggingOperators.BestLogger</a>.</p>
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00029">29</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00026">26</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+<p>References <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.bestLog</a>, <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.criterion</a>, <a class="el" href="PlottingOperators_8py_source.html#l00014">GeneticAlgorithm.PlottingOperators.PlotBestLogger.criterionAxis</a>, <a class="el" href="LoggingOperators_8py_source.html#l00017">GeneticAlgorithm.LoggingOperators.BestLogger.logCallback()</a>, <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.numEvaluations</a>, and <a class="el" href="LoggingOperators_8py_source.html#l00063">GeneticAlgorithm.LoggingOperators.LogGenerations.numEvaluations</a>.</p>
 
-</div>
-</div>
-<a class="anchor" id="a807c5149701af9902950ad037b6632bc"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::plotCallback" ref="a807c5149701af9902950ad037b6632bc" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">GeneticAlgorithm.PlottingOperators.PlotBestLogger.plotCallback</a> </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>population</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00013">13</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
-
-<p>References <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.bestLog</a>, <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.criterion</a>, <a class="el" href="LoggingOperators_8py_source.html#l00017">GeneticAlgorithm.LoggingOperators.BestLogger.logCallback()</a>, <a class="el" href="LoggingOperators_8py_source.html#l00007">GeneticAlgorithm.LoggingOperators.BestLogger.numEvaluations</a>, and <a class="el" href="LoggingOperators_8py_source.html#l00063">GeneticAlgorithm.LoggingOperators.LogGenerations.numEvaluations</a>.</p>
+<p>Referenced by <a class="el" href="GraphLibrary_8py_source.html#l00182">GeneticAlgorithm.GraphLibrary.BestPathPlotLogger.plotGraphCallback()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger_a807c5149701af9902950ad037b6632bc_cgraph.svg" width="100%" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger_aa99b2cd0a1a433979b0d5945fe6aec7b_cgraph.svg" width="100%" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger_aa99b2cd0a1a433979b0d5945fe6aec7b_icgraph.svg" width="100%" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -265,12 +287,29 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="a19d53627da6ec49ccb66989da91752bb"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::criterionAxis" ref="a19d53627da6ec49ccb66989da91752bb" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a19d53627da6ec49ccb66989da91752bb">GeneticAlgorithm::PlottingOperators.PlotBestLogger::criterionAxis</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00014">14</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+
+<p>Referenced by <a class="el" href="PlottingOperators_8py_source.html#l00029">GeneticAlgorithm.PlottingOperators.PlotBestLogger::plotCallback()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a60362b3e5794b8ff0bacaf5e1a60973f"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::evaluationCallback" ref="a60362b3e5794b8ff0bacaf5e1a60973f" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a60362b3e5794b8ff0bacaf5e1a60973f">GeneticAlgorithm::PlottingOperators.PlotBestLogger::evaluationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">plotCallback</a><code> [static]</code></td>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a60362b3e5794b8ff0bacaf5e1a60973f">GeneticAlgorithm::PlottingOperators.PlotBestLogger::evaluationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">plotCallback</a><code> [static]</code></td>
         </tr>
       </table>
 </div>
@@ -278,9 +317,26 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a7d0c873c0fdf77fb28af7e2b0e72e169">GeneticAlgorithm.LoggingOperators.BestLogger</a>.</p>
 
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00024">24</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+<p>Reimplemented in <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#abc159b0c67733f30e2d4bf66cd282733">GeneticAlgorithm.GraphLibrary.BestPathPlotLogger</a>.</p>
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00042">42</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 
 <p>Referenced by <a class="el" href="Core_8py_source.html#l00102">GeneticAlgorithm.Core.BasePeriodicOperator.iterate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a23272a826c8caa22706bdb51849926ff"></a><!-- doxytag: member="GeneticAlgorithm::PlottingOperators::PlotBestLogger::figure" ref="a23272a826c8caa22706bdb51849926ff" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a23272a826c8caa22706bdb51849926ff">GeneticAlgorithm::PlottingOperators.PlotBestLogger::figure</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00014">14</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 
 </div>
 </div>
@@ -289,7 +345,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a78df590f68422ce804437a5c077ac4d4">GeneticAlgorithm::PlottingOperators.PlotBestLogger::iterationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc">plotCallback</a><code> [static]</code></td>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a78df590f68422ce804437a5c077ac4d4">GeneticAlgorithm::PlottingOperators.PlotBestLogger::iterationCallback</a> = <a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b">plotCallback</a><code> [static]</code></td>
         </tr>
       </table>
 </div>
@@ -297,7 +353,9 @@ Static Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#aa94c7efde5fd565e568f68ab9cf48f42">GeneticAlgorithm.LoggingOperators.BestLogger</a>.</p>
 
-<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00023">23</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
+<p>Reimplemented in <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#a669e3ff786c2022ee3d00f13888253da">GeneticAlgorithm.GraphLibrary.BestPathPlotLogger</a>.</p>
+
+<p>Definition at line <a class="el" href="PlottingOperators_8py_source.html#l00041">41</a> of file <a class="el" href="PlottingOperators_8py_source.html">PlottingOperators.py</a>.</p>
 
 <p>Referenced by <a class="el" href="Core_8py_source.html#l00102">GeneticAlgorithm.Core.BasePeriodicOperator.iterate()</a>.</p>
 
@@ -328,7 +386,7 @@ Static Public Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="namespaceGeneticAlgorithm_1_1PlottingOperators.html">PlottingOperators</a>      </li>
       <li class="navelem"><a class="el" href="classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html">PlotBestLogger</a>      </li>
 
-    <li class="footer">Generated on Wed Jan 2 2013 20:06:22 for GeneticAlgorithm by
+    <li class="footer">Generated on Mon Jan 7 2013 10:22:45 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

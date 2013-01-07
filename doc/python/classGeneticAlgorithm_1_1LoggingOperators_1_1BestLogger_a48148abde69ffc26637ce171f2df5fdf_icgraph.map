@@ -1,3 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a807c5149701af9902950ad037b6632bc" title="GeneticAlgorithm.PlottingOperators.PlotBestLogger.plotCallback" alt="" coords="425,5,820,35"/>
+<area shape="rect" id="node3" href="$classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#aa99b2cd0a1a433979b0d5945fe6aec7b" title="Logs the best found so far using it&#39;s parent callback, and then plots the historic progression of the..." alt="" coords="425,5,820,35"/>
+<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#ab2b0061b5c63dcd88ca30d94282e88ab" title="(self, population):" alt="" coords="871,5,1300,35"/>
 </map>

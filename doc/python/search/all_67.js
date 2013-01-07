@@ -18,6 +18,8 @@ var searchData=
   ['genotypelibrary_2epy',['GenotypeLibrary.py',['../GenotypeLibrary_8py.html',1,'']]],
   ['getbest',['getBest',['../classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a225341823e21663ecc6a0033f3efca89',1,'GeneticAlgorithm::LoggingOperators::BestLogger']]],
   ['graph',['Graph',['../classGeneticAlgorithm_1_1GraphLibrary_1_1Graph.html',1,'GeneticAlgorithm::GraphLibrary']]],
+  ['graph',['graph',['../classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html#ad70d460962b198841e3c7a3172df93e4',1,'GeneticAlgorithm::GraphLibrary::PathLengthFitness::graph()'],['../classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#ab14f9644c1fcaa7dc9f158da0bd31755',1,'GeneticAlgorithm::GraphLibrary::BestPathPlotLogger::graph()']]],
+  ['graphaxis',['graphAxis',['../classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#a66255252da2ae776da248c8162f449ac',1,'GeneticAlgorithm::GraphLibrary::BestPathPlotLogger']]],
   ['graphlibrary',['GraphLibrary',['../namespaceGeneticAlgorithm_1_1GraphLibrary.html',1,'GeneticAlgorithm']]],
   ['graphlibrary_2epy',['GraphLibrary.py',['../GraphLibrary_8py.html',1,'']]],
   ['loggingoperators',['LoggingOperators',['../namespaceGeneticAlgorithm_1_1LoggingOperators.html',1,'GeneticAlgorithm']]],

@@ -119,8 +119,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00017"></a>00017 <span class="comment">#    random.seed(0)</span>
 <a name="l00018"></a><a class="code" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">00018</a>     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i*10) <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(1,4)])
 <a name="l00019"></a><a class="code" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">00019</a>     p  = Core.Population(schema=ch, popSize=100, genSize=20, maximize=<span class="keyword">False</span>, mutation_probability=0.01)
-<a name="l00020"></a><a class="code" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">00020</a>     ga = Core.Scheduler(name=<span class="stringliteral">&#39;Demo&#39;</span>, population=p, operators=[<a class="code" href="classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b...">NumOnes</a>(), LoggingOperators.LogGenerations(iterationFrequency=1), PlottingOperators.PlotBestLogger(iterationFrequency=1), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])    
-<a name="l00021"></a>00021     ga.runGA(100)
+<a name="l00020"></a><a class="code" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">00020</a>     ga = Core.Scheduler(name=<span class="stringliteral">&#39;Demo&#39;</span>,\
+<a name="l00021"></a>00021                         population=p,\
+<a name="l00022"></a>00022                         operators=[<a class="code" href="classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b...">NumOnes</a>(),\
+<a name="l00023"></a>00023                                    LoggingOperators.LogGenerations(iterationFrequency=1),\
+<a name="l00024"></a>00024                                    PlottingOperators.PlotBestLogger(iterationFrequency=1),\
+<a name="l00025"></a>00025                                    SelectionOperators.SUSSelection(),\
+<a name="l00026"></a>00026                                    SelectionOperators.SelectLethals(),\
+<a name="l00027"></a>00027                                    Core.Crossover(),\
+<a name="l00028"></a>00028                                    Core.Mutate()])    
+<a name="l00029"></a>00029     ga.runGA(100)
 </pre></div></div><!-- contents -->
 </div>
 <!-- window showing the filter options -->
@@ -141,7 +149,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul>
       <li class="navelem"><a class="el" href="GADemo_8py.html">GADemo.py</a>      </li>
 
-    <li class="footer">Generated on Wed Jan 2 2013 20:06:21 for GeneticAlgorithm by
+    <li class="footer">Generated on Mon Jan 7 2013 10:22:45 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

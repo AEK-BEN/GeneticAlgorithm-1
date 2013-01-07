@@ -100,18 +100,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">GeneticAlgorithm.GraphLibrary.Ordonez Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<!-- doxytag: class="GeneticAlgorithm::GraphLibrary::Ordonez" --><!-- doxytag: inherits="GeneticAlgorithm::Core::GeneticOperator" --><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+<!-- doxytag: class="GeneticAlgorithm::GraphLibrary::Ordonez" --><!-- doxytag: inherits="GeneticAlgorithm::EvaluationOperators::BaseEvaluationOperator" -->
+<p>A <a class="el" href="classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation...">GeneticAlgorithm::Core::GeneticOperator</a> derivate that decodes a binary genotype as a permutation of the numbers 0:n, where n is the number of segments in the genotype.  
+ <a href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#details">More...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for GeneticAlgorithm.GraphLibrary.Ordonez:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez__inherit__graph.svg" width="264" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -119,7 +121,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez__coll__graph.svg" width="264" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 
@@ -127,24 +129,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a></td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a3d57ad248161a7ee14620e0373cbcdbf">initialize</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initialize, iterate and finalize methods to point to sumSegments.  <a href="#a3d57ad248161a7ee14620e0373cbcdbf"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a3d05d92acfd22b1760532089c0f38e11">iterate</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#ad28be1a61660ddcf3f2aed4bd5dd5f66">finalize</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a340f3874c4d37a16e6a51a154d3b9f08">evaluateIndividual</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode the binary genotype on each individual, and replace the phenotype with the resulting permutation.  <a href="#a340f3874c4d37a16e6a51a154d3b9f08"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00068">68</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
+<div class="textblock"><p>A <a class="el" href="classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation...">GeneticAlgorithm::Core::GeneticOperator</a> derivate that decodes a binary genotype as a permutation of the numbers 0:n, where n is the number of segments in the genotype. </p>
+
+<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00116">116</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="aad4d8773d41e7cef81c1c62f60f1bbba"></a><!-- doxytag: member="GeneticAlgorithm::GraphLibrary::Ordonez::decode" ref="aad4d8773d41e7cef81c1c62f60f1bbba" args="" -->
+<a class="anchor" id="a340f3874c4d37a16e6a51a154d3b9f08"></a><!-- doxytag: member="GeneticAlgorithm::GraphLibrary::Ordonez::evaluateIndividual" ref="a340f3874c4d37a16e6a51a154d3b9f08" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">GeneticAlgorithm.GraphLibrary.Ordonez.decode</a> </td>
+          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a340f3874c4d37a16e6a51a154d3b9f08">GeneticAlgorithm::GraphLibrary.Ordonez::evaluateIndividual</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -164,61 +162,26 @@ Static Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00069">69</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
+<p>Decode the binary genotype on each individual, and replace the phenotype with the resulting permutation. </p>
+<p>Algorithm: </p>
+<ol>
+<li>
+Start permutation with edge 0 </li>
+<li>
+<p class="startli">For each segment j in the genotype: </p>
+<ol>
+<li>
+Compute the integer residue of dividing the jth value by j+1 </li>
+<li>
+Insert the j+1 thn node in the position computed above </li>
+</ol>
+<p class="endli">This algorithm guarantees valid hamiltonian cycles over a completely-connected graph. </p>
+</li>
+</ol>
 
-</div>
-</div>
-<hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="ad28be1a61660ddcf3f2aed4bd5dd5f66"></a><!-- doxytag: member="GeneticAlgorithm::GraphLibrary::Ordonez::finalize" ref="ad28be1a61660ddcf3f2aed4bd5dd5f66" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#ad28be1a61660ddcf3f2aed4bd5dd5f66">GeneticAlgorithm::GraphLibrary.Ordonez::finalize</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;<code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
+<p>Reimplemented from <a class="el" href="classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html#a245cf39701bc9c7f5ecdb24bb02f6365">GeneticAlgorithm.EvaluationOperators.BaseEvaluationOperator</a>.</p>
 
-<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00087">87</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
-
-<p>Referenced by <a class="el" href="Core_8py_source.html#l00427">GeneticAlgorithm.Core.Scheduler.runGA()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3d57ad248161a7ee14620e0373cbcdbf"></a><!-- doxytag: member="GeneticAlgorithm::GraphLibrary::Ordonez::initialize" ref="a3d57ad248161a7ee14620e0373cbcdbf" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a3d57ad248161a7ee14620e0373cbcdbf">GeneticAlgorithm::GraphLibrary.Ordonez::initialize</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;<code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Set the initialize, iterate and finalize methods to point to sumSegments. </p>
-
-<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00085">85</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
-
-<p>Referenced by <a class="el" href="Core_8py_source.html#l00427">GeneticAlgorithm.Core.Scheduler.runGA()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3d05d92acfd22b1760532089c0f38e11"></a><!-- doxytag: member="GeneticAlgorithm::GraphLibrary::Ordonez::iterate" ref="a3d05d92acfd22b1760532089c0f38e11" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#a3d05d92acfd22b1760532089c0f38e11">GeneticAlgorithm::GraphLibrary.Ordonez::iterate</a> = <a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html#aad4d8773d41e7cef81c1c62f60f1bbba">decode</a>;<code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00086">86</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
-
-<p>Referenced by <a class="el" href="Core_8py_source.html#l00427">GeneticAlgorithm.Core.Scheduler.runGA()</a>.</p>
+<p>Definition at line <a class="el" href="GraphLibrary_8py_source.html#l00130">130</a> of file <a class="el" href="GraphLibrary_8py_source.html">GraphLibrary.py</a>.</p>
 
 </div>
 </div>
@@ -247,7 +210,7 @@ Static Public Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="namespaceGeneticAlgorithm_1_1GraphLibrary.html">GraphLibrary</a>      </li>
       <li class="navelem"><a class="el" href="classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html">Ordonez</a>      </li>
 
-    <li class="footer">Generated on Wed Jan 2 2013 20:06:22 for GeneticAlgorithm by
+    <li class="footer">Generated on Mon Jan 7 2013 10:22:45 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

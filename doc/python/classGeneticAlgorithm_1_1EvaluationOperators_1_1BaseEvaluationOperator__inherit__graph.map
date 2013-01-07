@@ -1,6 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node9" href="$classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b..." alt="" coords="127,662,273,765"/>
-<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="73,307,327,427"/>
-<area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="77,139,323,259"/>
-<area shape="rect" id="node6" href="$classobject.html" title="{object\n||}" alt="" coords="172,5,228,91"/>
+<area shape="rect" id="node9" href="$classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b..." alt="" coords="5,662,152,765"/>
+<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that decodes a binary genotype as a permutation of..." alt="" coords="176,671,429,756"/>
+<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that uses." alt="" coords="453,662,765,765"/>
+<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="176,307,429,427"/>
+<area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="180,139,425,259"/>
+<area shape="rect" id="node6" href="$classobject.html" title="{object\n||}" alt="" coords="275,5,331,91"/>
 </map>
