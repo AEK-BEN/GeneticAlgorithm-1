@@ -17,5 +17,13 @@ if __name__=='__main__':
 #    random.seed(0)
     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i*10) for i in range(1,4)])
     p  = Core.Population(schema=ch, popSize=100, genSize=20, maximize=False, mutation_probability=0.01)
-    ga = Core.Scheduler(name='Demo', population=p, operators=[NumOnes(), LoggingOperators.LogGenerations(iterationFrequency=1), PlottingOperators.PlotBestLogger(iterationFrequency=1), SelectionOperators.SUSSelection(), SelectionOperators.SelectLethals(), Core.Crossover(), Core.Mutate()])    
+    ga = Core.Scheduler(name='Demo',\
+                        population=p,\
+                        operators=[NumOnes(),\
+                                   LoggingOperators.LogGenerations(iterationFrequency=1),\
+                                   PlottingOperators.PlotBestLogger(iterationFrequency=1),\
+                                   SelectionOperators.SUSSelection(),\
+                                   SelectionOperators.SelectLethals(),\
+                                   Core.Crossover(),\
+                                   Core.Mutate()])    
     ga.runGA(100)
