@@ -27,7 +27,46 @@ class SelectLethals(GeneticOperator):
         population.lethals = [l[1] for l in L]
     # Select individuals for replacement only during the iterate phase of runGA    
     iterate     = select
-        
+
+## @class KTournament
+#  @brief A selection operator that implements the k-tournament algorithm
+class KTournament(GeneticOperator):
+    ## @fn __init__(self, k=2, **kwargs)
+    #  @brief The genetic operator constructor
+    #  @param k The number of individuals that will participate in every tournament 
+    def __init__(self, k=2, **kwargs):
+        super(KTournament, self).__init__(**kwargs)
+        self.k = k
+
+    ## @fn selectBest(self, candidates, population)
+    #  @brief Given a list of candidates and a population, decide which cantidae is the best
+    #  @param candidates A list of indexes that point to the tournament candiadates
+    #  @param population A Core.Population object that contains the contender individuals
+    #  @return The index of the best individual among the candidates
+    def selectBest(self, contenders, population):
+        sortedContenders = sorted([(population.individuals[i].fitness,i) for i in contenders], key=lambda x: x[0])
+        if population.maximize:
+            return sortedContenders[-1][1]
+        else:
+            return sortedContenders[0][1]
+    
+    ## @fn select(self, population)
+    #  @brief Perform the k-tournament selection
+    # 
+    #  The k-tournament selection algorithm consists on creating tournaments in which k random individuals participate. The best individual is selected for each tournament, and is selected to belong to the mating pool.
+    #  M torunaments are performed, where M is equal to population.genSize (or n if this property is not found)
+    def select(self, population):
+        # Number of individuals
+        n = len(population.individuals)
+        # Get the amount of offspring to produce (2*m = len(mating_pool))
+        m = getattr(population, 'genSize', n)
+        # Compute the contenders for each torunament
+        tournaments = [ [random.randrange(n) for contender in xrange(self.k) ] for tournament in xrange(2*m) ]
+        # Put the tournament winners on the mating pool
+        population.matingPool = [self.selectBest(contenders, population) for contenders in tournaments ]
+    # Make iterate function call select instead
+    iterate = select
+                
 ## @class SUSSelection
 #  @brief This operator performs stochastic uniform selection over the population, updating the field matingPool
 #

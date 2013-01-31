@@ -3,9 +3,10 @@ import math
 
 if __name__=='__main__':
     # Run parameters 
-    random.seed(0)  # Fixed seed for repeatable runs
-    nNodes = 15;    # The number of nodes in the graph. Remember, TSP is of exponential difficulty!
-    
+    # random.seed(0)  # Fixed seed for repeatable runs
+    nNodes = 12;    # The number of nodes in the graph. Remember, TSP is of exponential difficulty!
+    # Control logging operator and population setting with the same flag
+    maximize = True
     # Create the graph, randomly
     instanceGraph = GraphLibrary.Graph(N=nNodes)
     # The chromosome schema has n-1 segments, each of length ceil(log(i+1,2)) as required by the ordonez decodification
@@ -13,9 +14,9 @@ if __name__=='__main__':
     # Build a population
     #    the TSP is a minimization problem, so maximize is set to false.
     #    mutation probability is greater than the default to prevent premature convergence 
-    p  = Core.Population(schema=ch, popSize=150, genSize=145, maximize=False, mutation_probability=0.05)
-    # Build the GA scheculer
-    #           Decodification : GraphLibrary.Ordonez
+    p  = Core.Population(schema=ch, popSize=200, genSize=200, maximize=maximize, mutation_probability=0.5)
+    # Build the GA scheduler
+    #                 Decoding : GraphLibrary.Ordonez
     #               Evaluation : PathLengthFitness
     #     Logging and Plotting : BestPathPlotLogger
     #    Mating pool selection : SUSSelection
@@ -26,12 +27,13 @@ if __name__=='__main__':
                          population=p,\
                          operators=[ GraphLibrary.Ordonez(),\
                                      GraphLibrary.PathLengthFitness(graph=instanceGraph),\
-                                     GraphLibrary.BestPathPlotLogger(graph=instanceGraph, iterationFrequency=1),\
-                                     SelectionOperators.SUSSelection(),\
+                                     GraphLibrary.BestPathPlotLogger(maximize=maximize, graph=instanceGraph, iterationFrequency=1),\
+                                     #SelectionOperators.SUSSelection(),\
+                                     SelectionOperators.KTournament(),\
                                      SelectionOperators.SelectLethals(),\
                                      Core.Crossover(),\
                                      Core.Mutate()])
     # Run the genetic algorithm for 100 generations    
-    ga.runGA(350)
+    ga.runGA(300)
     # Print the instance graph at the end
     print '\n' + str(instanceGraph)

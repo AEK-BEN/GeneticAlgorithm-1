@@ -15,13 +15,14 @@ class NumOnes(EvaluationOperators.BaseEvaluationOperator):
 ## This code runs only when this script is executed as main
 if __name__=='__main__':
 #    random.seed(0)
+    maximize = False
     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i*10) for i in range(1,4)])
-    p  = Core.Population(schema=ch, popSize=100, genSize=20, maximize=False, mutation_probability=0.01)
+    p  = Core.Population(schema=ch, popSize=100, genSize=20, maximize=maximize, mutation_probability=0.01)
     ga = Core.Scheduler(name='Demo',\
                         population=p,\
                         operators=[NumOnes(),\
                                    LoggingOperators.LogGenerations(iterationFrequency=1),\
-                                   PlottingOperators.PlotBestLogger(iterationFrequency=1),\
+                                   PlottingOperators.PlotBestLogger(iterationFrequency=1, maximize=maximize),\
                                    SelectionOperators.SUSSelection(),\
                                    SelectionOperators.SelectLethals(),\
                                    Core.Crossover(),\

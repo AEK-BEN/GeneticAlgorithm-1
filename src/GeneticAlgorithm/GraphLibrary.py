@@ -167,14 +167,15 @@ class BestPathPlotLogger(PlottingOperators.PlotBestLogger):
     #  @param figure The figure that contains both the criterion and graph axis
     #
     #  Any parameter can be omitted, in that a new object of the required type will be created to initialize properties
-    def __init__(self, graph=None, criterionAxis=None, graphAxis=None, figure=None, **kwargs):
+    def __init__(self, graph=None, criterionAxis=None, graphAxis=None, figure=None, maximize=False, **kwargs):
         if graph==None:
             graph = Graph()
         if (criterionAxis == None) and (graphAxis==None):
             figure, (criterionAxis, graphAxis) = matplotlib.pyplot.subplots(1, 2)
         super(BestPathPlotLogger, self).__init__(criterionAxis, figure, **kwargs)
         self.graph = graph;
-        self.graphAxis = graphAxis        
+        self.graphAxis = graphAxis
+        self.maximize = maximize        
     
     ## @plotGraphCallback(self, population):
     #  @brief This function is invoked periodically and displays the best found so far tour, and the historic evaluations plot

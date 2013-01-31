@@ -16,8 +16,10 @@ class BestLogger(Core.BasePeriodicOperator):
     #  @brief Add a new individual to the log if it is different to the best logged so far
     def logCallback(self, population):        
         currentBest, newBest = self.getBest(population)
+        ## @todo Check individual fitness
         if currentBest != newBest:
             self.addToLog(newBest)
+
             
     iterationCallback  = logCallback
     evaluationCallback = logCallback
@@ -47,9 +49,9 @@ class BestLogger(Core.BasePeriodicOperator):
         sortedFitness = sorted(zip(criteria, indices), key=lambda x: x[0])
         # Select the best individual, according to target
         if self.maximize:
-            best = sortedFitness[0][1]
-        else:
             best = sortedFitness[-1][1]
+        else:
+            best = sortedFitness[0][1]
         # Return the best candidate
         return (currentBest, candidates[best])
     
