@@ -50,6 +50,7 @@ External dependencies and useful links.
       <li>Install Python and Matplotlib. Again, refer to the links above if necessary.</li>
       <li>Add the src/ directory to your PYTHONPATH. Take a look at this <a href="http://www.stereoplex.com/blog/understanding-imports-and-pythonpath">article</a> by Dan Fairs if you need more information.</li>
       <li>Run the /src/examples/GADemo.py to test your installation. If it works, you're done!</li>
+      <li>Find more documentation on the doc/python/index.html page, and be patient with me as I gradually make the documentation better.</ol>
     </ol>
   </dd>
 </dl>
