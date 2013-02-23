@@ -88,6 +88,8 @@ class SearchManager(BaseObject):
                     
         
 if __name__ == '__main__':
+    
+    
     random.seed(0)
 
     # Kanpsack instance parameters
