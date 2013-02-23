@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "GeneticAlgorithm", "index.html", [
+    [ "The GeneticAlgorithm documentation", "index.html", null ],
     [ "Related Pages", "pages.html", "pages" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
