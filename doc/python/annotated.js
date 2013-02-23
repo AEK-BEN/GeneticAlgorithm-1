@@ -1,5 +1,6 @@
 var annotated =
 [
+    [ "BaseObject", "classBaseObject.html", null ],
     [ "GABaseObject-demo.GeneticExampleClass", "classGABaseObject-demo_1_1GeneticExampleClass.html", null ],
     [ "GADemo.NumOnes", "classGADemo_1_1NumOnes.html", "classGADemo_1_1NumOnes" ],
     [ "GeneticAlgorithm.Core.BaseChromosomeSegment", "classGeneticAlgorithm_1_1Core_1_1BaseChromosomeSegment.html", "classGeneticAlgorithm_1_1Core_1_1BaseChromosomeSegment" ],
@@ -21,7 +22,11 @@ var annotated =
     [ "GeneticAlgorithm.LoggingOperators.BestLogger", "classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html", "classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger" ],
     [ "GeneticAlgorithm.LoggingOperators.LogGenerations", "classGeneticAlgorithm_1_1LoggingOperators_1_1LogGenerations.html", "classGeneticAlgorithm_1_1LoggingOperators_1_1LogGenerations" ],
     [ "GeneticAlgorithm.PlottingOperators.PlotBestLogger", "classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html", "classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger" ],
+    [ "GeneticAlgorithm.SelectionOperators.KTournament", "classGeneticAlgorithm_1_1SelectionOperators_1_1KTournament.html", "classGeneticAlgorithm_1_1SelectionOperators_1_1KTournament" ],
     [ "GeneticAlgorithm.SelectionOperators.SelectLethals", "classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html", "classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals" ],
     [ "GeneticAlgorithm.SelectionOperators.SUSSelection", "classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html", "classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection" ],
+    [ "KapsackSearch.SearchManager", "classKapsackSearch_1_1SearchManager.html", "classKapsackSearch_1_1SearchManager" ],
+    [ "KapsackSearch.SearchNode", "classKapsackSearch_1_1SearchNode.html", "classKapsackSearch_1_1SearchNode" ],
+    [ "KnapsackDemo.Knapsack", "classKnapsackDemo_1_1Knapsack.html", "classKnapsackDemo_1_1Knapsack" ],
     [ "object", "classobject.html", null ]
 ];

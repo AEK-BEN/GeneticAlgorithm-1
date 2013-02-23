@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html" title="This class extends the PlottingOperators::PlotBestLogger to display the best tour found so far..." alt="" coords="5,1240,325,1395"/>
+<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html" title="This class extends the PlottingOperators::PlotBestLogger to display the best tour found so far..." alt="" coords="5,1241,325,1413"/>
 <area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html" title="This class stores the best individual of the population, if it is better than the last individual fou..." alt="" coords="16,712,315,971"/>
 <area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html" title="A class that serves as a base for all periodic operators." alt="" coords="23,475,308,664"/>
 <area shape="rect" id="node6" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="39,307,292,427"/>

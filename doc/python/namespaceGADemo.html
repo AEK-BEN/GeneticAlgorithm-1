@@ -111,9 +111,10 @@ Classes</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An evaluation operator that computes the number of ones in a segment whose data can be converted to binary using the bin() function.  <a href="classGADemo_1_1NumOnes.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">maximize</a> = False</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">This code runs only when this script is executed as main.  <a href="#ada257c891997736857bb834d716dcef9"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a> = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=i*10) for i in range(1,4)])</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">This code runs only when this script is executed as main.  <a href="#a4c1eb6bc12fd1f6f081e1b8aa3de3742"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=100, genSize=20, maximize=False, mutation_probability=0.01)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=100, genSize=20, <a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">maximize</a>=<a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">maximize</a>, mutation_probability=0.01)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGADemo.html#a61e28b170aabc9495670fa3211382f0a">ga</a></td></tr>
 </table>
 <hr/><h2>Variable Documentation</h2>
@@ -128,9 +129,7 @@ Variables</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>This code runs only when this script is executed as main. </p>
-
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00018">18</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00019">19</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -148,13 +147,30 @@ Variables</h2></td></tr>
 <a name="l00002"></a>00002                         population=p,\
 <a name="l00003"></a>00003                         operators=[<a class="code" href="classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b...">NumOnes</a>(),\
 <a name="l00004"></a>00004                                    LoggingOperators.LogGenerations(iterationFrequency=1),\
-<a name="l00005"></a><a class="code" href="classGADemo_1_1NumOnes.html">00005</a>                                    PlottingOperators.PlotBestLogger(iterationFrequency=1),\
+<a name="l00005"></a><a class="code" href="classGADemo_1_1NumOnes.html">00005</a>                                    PlottingOperators.PlotBestLogger(iterationFrequency=1, maximize=maximize),\
 <a name="l00006"></a>00006                                    SelectionOperators.SUSSelection(),\
 <a name="l00007"></a>00007                                    SelectionOperators.SelectLethals(),\
 <a name="l00008"></a><a class="code" href="classGADemo_1_1NumOnes.html#a6b015c19229264dd3e947334f2984255">00008</a>                                    Core.Crossover(),\
 <a name="l00009"></a>00009                                    Core.Mutate()])
 </pre></div>
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00020">20</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00021">21</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada257c891997736857bb834d716dcef9"></a><!-- doxytag: member="GADemo::maximize" ref="ada257c891997736857bb834d716dcef9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">GADemo::maximize</a> = False</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>This code runs only when this script is executed as main. </p>
+
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00018">18</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -163,13 +179,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">GADemo::p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=100, genSize=20, maximize=False, mutation_probability=0.01)</td>
+          <td class="memname">tuple <a class="el" href="namespaceGADemo.html#a7d7684308fdb648492a830559b10a018">GADemo::p</a> = Core.Population(schema=<a class="el" href="namespaceGADemo.html#a4c1eb6bc12fd1f6f081e1b8aa3de3742">ch</a>, popSize=100, genSize=20, <a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">maximize</a>=<a class="el" href="namespaceGADemo.html#ada257c891997736857bb834d716dcef9">maximize</a>, mutation_probability=0.01)</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00019">19</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
+<p>Definition at line <a class="el" href="GADemo_8py_source.html#l00020">20</a> of file <a class="el" href="GADemo_8py_source.html">GADemo.py</a>.</p>
 
 </div>
 </div>
@@ -193,7 +209,7 @@ Variables</h2></td></tr>
     <ul>
       <li class="navelem"><a class="el" href="namespaceGADemo.html">GADemo</a>      </li>
 
-    <li class="footer">Generated on Mon Jan 7 2013 10:22:45 for GeneticAlgorithm by
+    <li class="footer">Generated on Fri Feb 22 2013 19:50:48 for GeneticAlgorithm by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

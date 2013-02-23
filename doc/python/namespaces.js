@@ -10,5 +10,7 @@ var namespaces =
     [ "GeneticAlgorithm::LoggingOperators", "namespaceGeneticAlgorithm_1_1LoggingOperators.html", "namespaceGeneticAlgorithm_1_1LoggingOperators" ],
     [ "GeneticAlgorithm::PlottingOperators", "namespaceGeneticAlgorithm_1_1PlottingOperators.html", "namespaceGeneticAlgorithm_1_1PlottingOperators" ],
     [ "GeneticAlgorithm::SelectionOperators", "namespaceGeneticAlgorithm_1_1SelectionOperators.html", "namespaceGeneticAlgorithm_1_1SelectionOperators" ],
+    [ "KapsackSearch", "namespaceKapsackSearch.html", "namespaceKapsackSearch" ],
+    [ "KnapsackDemo", "namespaceKnapsackDemo.html", "namespaceKnapsackDemo" ],
     [ "OrdonezDemo", "namespaceOrdonezDemo.html", "namespaceOrdonezDemo" ]
 ];

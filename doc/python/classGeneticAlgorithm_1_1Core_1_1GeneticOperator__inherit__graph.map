@@ -1,17 +1,19 @@
 <map id="G" name="G">
-<area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html" title="A class that serves as a base for all periodic operators." alt="" coords="189,475,475,664"/>
-<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="499,527,717,612"/>
-<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="741,527,939,612"/>
-<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html" title="This class provides an easy way of developing evaluation operators that only evaluate recently replac..." alt="" coords="963,501,1352,638"/>
-<area shape="rect" id="node29" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="Select the individuals to replace based on the population.maximize flag and the population.genSize property." alt="" coords="1376,527,1696,612"/>
-<area shape="rect" id="node31" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="1720,527,2043,612"/>
-<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="876,139,1121,259"/>
-<area shape="rect" id="node4" href="$classobject.html" title="{object\n||}" alt="" coords="971,5,1027,91"/>
+<area shape="rect" id="node7" href="$classGeneticAlgorithm_1_1Core_1_1BasePeriodicOperator.html" title="A class that serves as a base for all periodic operators." alt="" coords="172,475,457,664"/>
+<area shape="rect" id="node17" href="$classGeneticAlgorithm_1_1Core_1_1Crossover.html" title="Crossover two individuals from population.matingPool with probability population.crossoverProbability..." alt="" coords="481,527,700,612"/>
+<area shape="rect" id="node19" href="$classGeneticAlgorithm_1_1Core_1_1Mutate.html" title="Mutate an individual." alt="" coords="724,527,921,612"/>
+<area shape="rect" id="node21" href="$classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html" title="This class provides an easy way of developing evaluation operators that only evaluate recently replac..." alt="" coords="945,501,1335,638"/>
+<area shape="rect" id="node31" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1KTournament.html" title="A selection operator that implements the k&#45;tournament algorithm." alt="" coords="1359,501,1676,638"/>
+<area shape="rect" id="node33" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html" title="Select the individuals to replace based on the population.maximize flag and the population.genSize property." alt="" coords="1700,527,2020,612"/>
+<area shape="rect" id="node35" href="$classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html" title="This operator performs stochastic uniform selection over the population, updating the field matingPoo..." alt="" coords="2044,527,2367,612"/>
+<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="1017,139,1263,259"/>
+<area shape="rect" id="node4" href="$classobject.html" title="{object\n||}" alt="" coords="1112,5,1168,91"/>
 <area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html" title="This class stores the best individual of the population, if it is better than the last individual fou..." alt="" coords="16,712,315,971"/>
 <area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1LogGenerations.html" title="Log the full population of a GA." alt="" coords="339,755,661,927"/>
 <area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html" title="A BestLogger specialization that plots the historic progression of the best criterion with each tick..." alt="" coords="5,1019,325,1191"/>
-<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html" title="This class extends the PlottingOperators::PlotBestLogger to display the best tour found so far..." alt="" coords="5,1240,325,1395"/>
-<area shape="rect" id="node23" href="$classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b..." alt="" coords="860,790,1007,893"/>
-<area shape="rect" id="node25" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that decodes a binary genotype as a permutation of..." alt="" coords="1031,799,1284,884"/>
-<area shape="rect" id="node27" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that uses." alt="" coords="1308,790,1620,893"/>
+<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html" title="This class extends the PlottingOperators::PlotBestLogger to display the best tour found so far..." alt="" coords="5,1241,325,1413"/>
+<area shape="rect" id="node23" href="$classGADemo_1_1NumOnes.html" title="An evaluation operator that computes the number of ones in a segment whose data can be converted to b..." alt="" coords="764,790,911,893"/>
+<area shape="rect" id="node25" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that decodes a binary genotype as a permutation of..." alt="" coords="935,799,1188,884"/>
+<area shape="rect" id="node27" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html" title="A GeneticAlgorithm::Core::GeneticOperator derivate that uses." alt="" coords="1212,790,1524,893"/>
+<area shape="rect" id="node29" href="$classKnapsackDemo_1_1Knapsack.html" title="An evaluation operator that computes the relaxed version of the objective function used to solve a kn..." alt="" coords="1548,764,1724,919"/>
 </map>

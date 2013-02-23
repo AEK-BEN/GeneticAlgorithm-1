@@ -1,5 +1,9 @@
 var hierarchy =
 [
+    [ "BaseObject", "classBaseObject.html", [
+      [ "KapsackSearch.SearchManager", "classKapsackSearch_1_1SearchManager.html", null ],
+      [ "KapsackSearch.SearchNode", "classKapsackSearch_1_1SearchNode.html", null ]
+    ] ],
     [ "object", "classobject.html", [
       [ "GeneticAlgorithm.Core.GABaseObject", "classGeneticAlgorithm_1_1Core_1_1GABaseObject.html", [
         [ "GABaseObject-demo.GeneticExampleClass", "classGABaseObject-demo_1_1GeneticExampleClass.html", null ],
@@ -20,8 +24,10 @@ var hierarchy =
           [ "GeneticAlgorithm.EvaluationOperators.BaseEvaluationOperator", "classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html", [
             [ "GADemo.NumOnes", "classGADemo_1_1NumOnes.html", null ],
             [ "GeneticAlgorithm.GraphLibrary.Ordonez", "classGeneticAlgorithm_1_1GraphLibrary_1_1Ordonez.html", null ],
-            [ "GeneticAlgorithm.GraphLibrary.PathLengthFitness", "classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html", null ]
+            [ "GeneticAlgorithm.GraphLibrary.PathLengthFitness", "classGeneticAlgorithm_1_1GraphLibrary_1_1PathLengthFitness.html", null ],
+            [ "KnapsackDemo.Knapsack", "classKnapsackDemo_1_1Knapsack.html", null ]
           ] ],
+          [ "GeneticAlgorithm.SelectionOperators.KTournament", "classGeneticAlgorithm_1_1SelectionOperators_1_1KTournament.html", null ],
           [ "GeneticAlgorithm.SelectionOperators.SelectLethals", "classGeneticAlgorithm_1_1SelectionOperators_1_1SelectLethals.html", null ],
           [ "GeneticAlgorithm.SelectionOperators.SUSSelection", "classGeneticAlgorithm_1_1SelectionOperators_1_1SUSSelection.html", null ]
         ] ],
