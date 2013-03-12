@@ -18,7 +18,7 @@ class BestLogger(Core.BasePeriodicOperator):
         currentBest, newBest = self.getBest(population)
         ## @todo Check individual fitness
         if currentBest != newBest:
-            self.addToLog(newBest)
+            self.addToLog( copy.deepcopy(newBest) )
 
             
     iterationCallback  = logCallback
