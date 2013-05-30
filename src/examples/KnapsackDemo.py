@@ -209,6 +209,7 @@ if __name__=='__main__':
         
     # Genetic algorithm
     ch = Core.Genotype(segments=[GenotypeLibrary.BinaryChromosomeSegment(nBits=1) for i in range(nObjects)])
+    print ch
     p  = Core.Population(schema=ch, popSize=popSize, genSize=genSize, maximize=maximize, mutation_probability=0.01)
     ga = Core.Scheduler(name='Demo',\
                         population=p,\
@@ -219,7 +220,7 @@ if __name__=='__main__':
                                    SelectionOperators.SelectLethals(),\
                                    Core.Crossover(),\
                                    Core.Mutate()])    
-    ga.runGA(nGenerations)
+#    ga.runGA(nGenerations)
     
     print 'Object Volumes', objectVolumes
     print 'Object Costs', objectCosts
