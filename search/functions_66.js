@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['finalize',['finalize',['../classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html#a90706b8d7851eb63cca447a36a2a6206',1,'GeneticAlgorithm::Core::GeneticOperator.finalize()'],['../classGeneticAlgorithm_1_1Core_1_1Scheduler.html#ac908478a7dd8d6f3924b9ddbc43c53d2',1,'GeneticAlgorithm::Core::Scheduler.finalize()'],['../classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#a094abab138761996021fe2b9e78fc9c7',1,'GeneticAlgorithm::LoggingOperators::BestLogger.finalize()'],['../classGeneticAlgorithm_1_1LoggingOperators_1_1LogGenerations.html#a25bb86caddf5d0e7d3bc35ab98eed24a',1,'GeneticAlgorithm::LoggingOperators::LogGenerations.finalize()'],['../classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html#a4334c0f500d10aa3bb3318258db48845',1,'GeneticAlgorithm::PlottingOperators::PlotBestLogger.finalize()']]]
+];
