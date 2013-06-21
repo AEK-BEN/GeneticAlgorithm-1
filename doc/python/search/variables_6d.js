@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['maximize',['maximize',['../classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html#a7615de4d8fa4dbbf0fb4ab2f14e483bc',1,'GeneticAlgorithm::GraphLibrary::BestPathPlotLogger.maximize()'],['../classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html#af1d2155f3ae1b31eb43e8bc14f0dad74',1,'GeneticAlgorithm::LoggingOperators::BestLogger.maximize()'],['../namespaceGADemo.html#ada257c891997736857bb834d716dcef9',1,'GADemo.maximize()'],['../namespaceKnapsackDemo.html#a76065500a2e315a6db8cf2388b309c18',1,'KnapsackDemo.maximize()'],['../namespaceOrdonezDemo.html#aed15165479879f673de1465d826fb454',1,'OrdonezDemo.maximize()']]],
+  ['maxvolume',['maxVolume',['../classKapsackSearch_1_1SearchManager.html#a9e03dc5e9957ecb9296c162c65e709ab',1,'KapsackSearch::SearchManager.maxVolume()'],['../classKnapsackDemo_1_1Knapsack.html#a77e45307df2d47babffcd48dbefaa5f4',1,'KnapsackDemo::Knapsack::maxVolume()'],['../namespaceKapsackSearch.html#a02349fc6716f0f6b2f0450033da42b57',1,'KapsackSearch.maxVolume()'],['../namespaceKnapsackDemo.html#a1d13dcf2e502a347e3a1130468a13ade',1,'KnapsackDemo.maxVolume()']]]
+];
