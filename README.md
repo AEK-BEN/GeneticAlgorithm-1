@@ -53,4 +53,8 @@ External dependencies and useful links.
       <li>Find more documentation on the doc/python/index.html page, and be patient with me as I gradually make the documentation better.</ol>
     </ol>
   </dd>
+  <dt>More documentation</dt>
+  <dd>
+    The GeneticAlgorithm module is documented using doxygeen, you can find the most recent output <a href="http://davidsaid.github.io/GeneticAlgorithm/">here</a>.
+  </dd>
 </dl>
