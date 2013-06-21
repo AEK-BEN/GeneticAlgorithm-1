@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classGADemo_1_1NumOnes.html#ab2135ed81b58077c5abff0fb91ce0277" title="Call segmentOnes for each segment on the genotype, and add them all together to produce a fitness fun..." alt="" coords="279,5,524,35"/>
-<area shape="rect" id="node5" href="$classGeneticAlgorithm_1_1EvaluationOperators_1_1BaseEvaluationOperator.html#a41718b1f3029e8ae343a1d0241e9d8e9" title="This function applies the evaluateIndividual function to every recently replaced individual in the po..." alt="" coords="573,5,1016,35"/>
-</map>

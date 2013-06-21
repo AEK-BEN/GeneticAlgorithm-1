@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classKapsackSearch_1_1SearchManager.html" title="{KapsackSearch.SearchManager\n|+ objectVolumes\l+ objectCosts\l+ maxVolume\l+ nExpansions\l+ openNodes\l+ closedNodes\l+ bestFound\l|+ __init__()\l+ expand()\l+ run()\l}" alt="" coords="5,139,213,363"/>
-<area shape="rect" id="node5" href="$classKapsackSearch_1_1SearchNode.html" title="{KapsackSearch.SearchNode\n|+ solution\l+ cost\l+ volume\l|+ __init__()\l+ neighbors()\l+ exceedsVolume()\l+ solutionCost()\l+ solutionVolume()\l+ __eq__()\l}" alt="" coords="237,147,427,354"/>
-</map>

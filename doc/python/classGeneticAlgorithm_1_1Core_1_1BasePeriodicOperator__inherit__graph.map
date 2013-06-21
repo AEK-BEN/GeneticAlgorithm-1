@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1BestLogger.html" title="This class stores the best individual of the population, if it is better than the last individual fou..." alt="" coords="16,712,315,971"/>
-<area shape="rect" id="node15" href="$classGeneticAlgorithm_1_1LoggingOperators_1_1LogGenerations.html" title="Log the full population of a GA." alt="" coords="339,755,661,927"/>
-<area shape="rect" id="node2" href="$classGeneticAlgorithm_1_1Core_1_1GeneticOperator.html" title="GeneticOperator is the base class that should be used to implement selection, crossover and mutation..." alt="" coords="205,307,459,427"/>
-<area shape="rect" id="node4" href="$classGeneticAlgorithm_1_1Core_1_1GABaseObject.html" title="The base object provides the functions repr and str." alt="" coords="209,139,455,259"/>
-<area shape="rect" id="node6" href="$classobject.html" title="{object\n||}" alt="" coords="304,5,360,91"/>
-<area shape="rect" id="node11" href="$classGeneticAlgorithm_1_1PlottingOperators_1_1PlotBestLogger.html" title="A BestLogger specialization that plots the historic progression of the best criterion with each tick..." alt="" coords="5,1019,325,1191"/>
-<area shape="rect" id="node13" href="$classGeneticAlgorithm_1_1GraphLibrary_1_1BestPathPlotLogger.html" title="This class extends the PlottingOperators::PlotBestLogger to display the best tour found so far..." alt="" coords="5,1241,325,1413"/>
-</map>
