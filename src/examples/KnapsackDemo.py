@@ -220,7 +220,7 @@ if __name__=='__main__':
                                    SelectionOperators.SelectLethals(),\
                                    Core.Crossover(),\
                                    Core.Mutate()])    
-#    ga.runGA(nGenerations)
+    ga.runGA(nGenerations)
     
     print 'Object Volumes', objectVolumes
     print 'Object Costs', objectCosts

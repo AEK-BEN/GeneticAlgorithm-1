@@ -1,3 +1,4 @@
+import time
 import Core
 import LoggingOperators
 import matplotlib.pyplot
@@ -36,6 +37,7 @@ class PlotBestLogger(LoggingOperators.BestLogger):
             self.criterionAxis.set_xlabel( 'number of evaluations' )
             self.criterionAxis.set_ylabel( self.criterion )
             matplotlib.pyplot.draw()
+            matplotlib.pyplot.pause(0.0001)
             
         
     iterationCallback  = plotCallback
